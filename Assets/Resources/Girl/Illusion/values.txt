@@ -1,0 +1,9 @@
+Hair-1	7	89
+Hair-2	10	67
+Hair-3	14	65
+Hair-4	4	80
+
+Shirt-1	0	-36
+Shirt-2
+Shirt-3
+Shirt-4	0	-28

@@ -1,0 +1,23 @@
+bool isAlarming(int atmPin, int secondAtmPin) {
+    //your code goes here
+      int tempPin=atmPin;
+      int tempRev=0;
+      int remainder;
+      while(tempPin!=0)
+      {
+        remainder=tempPin%10;
+        tempRev=tempRev*10+remainder;
+        tempPin=tempPin/10;
+        
+      }
+      if(tempRev==secondAtmPin)
+      {
+        cout<<"Alarming Situation -> Yes";
+      }
+      else
+      {
+        cour<<"Alarming Situation -> No";
+      }
+
+
+}

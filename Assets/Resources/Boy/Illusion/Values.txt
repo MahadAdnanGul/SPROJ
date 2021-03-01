@@ -1,0 +1,11 @@
+Hair-1	13	82 	S100 100
+Hair-2	6	101	S80  100
+Hair-3	9	99	S80  100	
+Hair-4  3.4	99.4
+Hair-5 	11	82.6
+
+Shirt-1 4	-43
+Shirt-2 4	-43
+Shirt-3	4	-43
+Shirt-4 0	-33.5
+Shirt-5 0	-33.5
