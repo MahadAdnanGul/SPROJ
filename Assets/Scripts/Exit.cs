@@ -19,6 +19,16 @@ public class Exit : MonoBehaviour
     
 
     }
+    public void Next()
+    {
+
+
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
+
+
+
+
+    }
     public void delay_exiting(int choices,float time)
     {
 

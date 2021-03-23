@@ -21,6 +21,30 @@ EditorBuildSettings:
     path: Assets/Scenes/Chapter_1_Oweek_4.unity
     guid: 252549f041bc4504cb500029efc18914
   - enabled: 1
+    path: Assets/Scenes/AnimatedScenes/SDSB.unity
+    guid: 739dc7ef54fd1334e8488ae9a7c4a918
+  - enabled: 1
+    path: Assets/Scenes/AnimatedScenes/Masjid.unity
+    guid: 28b98dc2cff058446ae6b3c8f78fa941
+  - enabled: 1
+    path: Assets/Scenes/AnimatedScenes/Library.unity
+    guid: 4fbc0b53158885a4bb3b2cc8b39bcefc
+  - enabled: 1
+    path: Assets/Scenes/AnimatedScenes/LawSchool.unity
+    guid: 95e83e68b16b3024eaa19eca4dda0a4a
+  - enabled: 1
+    path: Assets/Scenes/AnimatedScenes/AcademicBlock.unity
+    guid: 469f5dbeaf6198a4ea6d731eab962a2a
+  - enabled: 1
+    path: Assets/Scenes/AnimatedScenes/SSE.unity
+    guid: 63642503ff0e1ad4b89fa860a252940f
+  - enabled: 1
+    path: Assets/Scenes/AnimatedScenes/REDC.unity
+    guid: 34ae9c0980998d04894d0f96cd0bd711
+  - enabled: 1
+    path: Assets/Scenes/AnimatedScenes/PDC.unity
+    guid: 06aa8b641b7b0e2478e391281d41a998
+  - enabled: 1
     path: Assets/Scenes/Chapter_2_SSE_1.unity
     guid: e976689df5b13a24f8702df297bfb6f7
   - enabled: 1
