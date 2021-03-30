@@ -5,7 +5,9 @@ using UnityEngine;
 public class TimedEnable : MonoBehaviour
 {
     public GameObject choice;
-    public GameObject obj;
+    public GameObject trigger;
+    public string[] messages;
+    public NewDialgoue obj;
     public float time;
     // Start is called before the first frame update
     void Start()
@@ -22,11 +24,9 @@ public class TimedEnable : MonoBehaviour
     IEnumerator ExecuteAfterTime(float timed)
     {
         yield return new WaitForSeconds(timed);
-
         Debug.Log("Done");
-
-
-        obj.SetActive(true);
+        //obj.ResetDialogues(messages,trigger);
+        trigger.SetActive(true);
         choice.SetActive(false);
 
    

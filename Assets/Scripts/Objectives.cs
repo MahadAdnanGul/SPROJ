@@ -16,7 +16,7 @@ public class Objectives : MonoBehaviour
     Image NEW;
     [SerializeField]
     TextMeshProUGUI obj_text;
-    string[] obj = { "Talk to Roommate", "Exit to khoka","Talk to roommate","Interact with yourself","talk to roommate","Get ready","Exit to SSE","Acknowledge","Interact with yourself","na","na","na","na","na","na","na" };
+    string[] obj = { "Talk to your group", "Complete the tour","Talk to roommate","Interact with yourself","talk to roommate","Get ready","Exit to SSE","Acknowledge","Interact with yourself","na","na","na","na","na","na","na" };
     int current = 1;
     // Start is called before the first frame update
     void Start()
@@ -39,9 +39,10 @@ public class Objectives : MonoBehaviour
 
         obj_text.text = obj[current];
         current++;
-        completion_bar.value++;
+        //completion_bar.value++;
         //anim_button.SetBool("check", true);
         gameObject.GetComponent<Animator>().Play("base Layer.objective_comp");
         NEW.gameObject.SetActive(true);        
     }
+    
 }

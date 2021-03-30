@@ -25,6 +25,21 @@ public class Location_update_ui : MonoBehaviour
         dict.Add(10, "SSE");
         dict.Add(11, "REDC");
         dict.Add(12, "PDC");
+        dict.Add(13, "Dorm");
+        dict.Add(14, "Loading...");
+        dict.Add(15, "Outside SSE");
+        dict.Add(16, "Outside SSE");
+        dict.Add(17, "Loading...");
+        dict.Add(18, "Classroom");
+        dict.Add(19, "Classroom");
+        dict.Add(20, "Classroom");
+        dict.Add(21, "Dorm");
+        dict.Add(22, "Loading...");
+        dict.Add(23, "Khoka");
+        dict.Add(24, "Khoka");
+        dict.Add(25, "Khoka");
+        dict.Add(26, "Khoka");
+        
 
     }
 

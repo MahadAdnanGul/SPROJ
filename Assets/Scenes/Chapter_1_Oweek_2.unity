@@ -462,9 +462,9 @@ MonoBehaviour:
   m_HandleRect: {fileID: 768529544}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 10
+  m_MaxValue: 12
   m_WholeNumbers: 1
-  m_Value: 5
+  m_Value: 0
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -557,6 +557,7 @@ GameObject:
   - component: {fileID: 276432957}
   - component: {fileID: 276432956}
   - component: {fileID: 276432955}
+  - component: {fileID: 276432960}
   m_Layer: 5
   m_Name: UI_HUD
   m_TagString: UI
@@ -662,6 +663,19 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &276432960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 276432954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8a36f31160b0f540a4a12c25a772b60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  completionBar: {fileID: 162823054}
 --- !u!1 &319374465
 GameObject:
   m_ObjectHideFlags: 0

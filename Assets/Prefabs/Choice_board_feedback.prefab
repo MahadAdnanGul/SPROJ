@@ -644,8 +644,8 @@ GameObject:
   - component: {fileID: 7824319522184488840}
   - component: {fileID: 7824319522184488841}
   - component: {fileID: 7824319522184488847}
-  - component: {fileID: 7824319522184488846}
   - component: {fileID: 9177705958628722227}
+  - component: {fileID: 2613531057255193592}
   m_Layer: 5
   m_Name: Feedback
   m_TagString: Untagged
@@ -731,20 +731,6 @@ MonoBehaviour:
     type: 3}
   personalization: {fileID: 21300000, guid: 68264404274550641b765498b1decf1f, type: 3}
   should_must: {fileID: 21300000, guid: b09bdad207f24d74f8a268dc1817a56c, type: 3}
---- !u!114 &7824319522184488846
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7824319522184488843}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3432274746aca4c429a9036bb9c7586f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  time: 5
-  scene_n: 7
 --- !u!114 &9177705958628722227
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -757,6 +743,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 105b2c111ee2e4843a76f61938971e17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2613531057255193592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7824319522184488843}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be887a97d356edc4ba81a894549ff1de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  choice: {fileID: 0}
+  trigger: {fileID: 0}
+  messages: []
+  obj: {fileID: 0}
+  time: 4
 --- !u!1 &7824319522458977850
 GameObject:
   m_ObjectHideFlags: 0
@@ -825,8 +828,7 @@ MonoBehaviour:
   m_text: What is Bob thinking?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 0}
-  m_sharedMaterial: {fileID: 21502116422444000, guid: af61af49f0b8bfa4f8e084fbc3563b82,
-    type: 2}
+  m_sharedMaterial: {fileID: 0}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
