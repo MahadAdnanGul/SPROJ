@@ -5,7 +5,6 @@ using UnityEngine;
 public class timed_shift3 : MonoBehaviour
 {
     public Animator pop;
-    public GameObject text_obj;
     // Start is called before the first frame update
     private void Awake()
     {
@@ -13,7 +12,6 @@ public class timed_shift3 : MonoBehaviour
     }
     void Start()
     {
-        text_obj = GameObject.FindGameObjectWithTag("MainCamera");
         StartCoroutine(ExecuteAfterTime());
     }
 
@@ -30,8 +28,6 @@ public class timed_shift3 : MonoBehaviour
         Debug.Log("Done");
 
         pop.SetBool("yes", true);
-        yield return new WaitForSeconds(2);
-        text_obj.GetComponent<PopupEnable>().Enabler();
 
     }
 }

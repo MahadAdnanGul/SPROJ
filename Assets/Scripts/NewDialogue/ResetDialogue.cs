@@ -27,4 +27,10 @@ public class ResetDialogue : MonoBehaviour
             trigger.ResetDialogues(messages, newTrigger);
         }
     }
+
+    public void ButtonPress()
+    {
+        FindObjectOfType<GameManager>().IncreaseLevelProgress();
+    }
+        
 }

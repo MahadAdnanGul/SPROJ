@@ -2135,7 +2135,7 @@ PrefabInstance:
     - target: {fileID: 3898754116049895601, guid: 008d41327f056c34881f47d3027201ae,
         type: 3}
       propertyPath: messageArr.Array.data[0]
-      value: Hi, my name is player!
+      value: '"Hi, my name is {PlayerPrefs.GetString("Name")}!"'
       objectReference: {fileID: 0}
     - target: {fileID: 3898754116049895601, guid: 008d41327f056c34881f47d3027201ae,
         type: 3}
@@ -2197,6 +2197,11 @@ PrefabInstance:
       propertyPath: newTrigger
       value: 
       objectReference: {fileID: 287179179}
+    - target: {fileID: 3898754115713782296, guid: 008d41327f056c34881f47d3027201ae,
+        type: 3}
+      propertyPath: m_TagString
+      value: DialogueName
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 008d41327f056c34881f47d3027201ae, type: 3}
 --- !u!224 &1731308552 stripped
@@ -2205,6 +2210,37 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 1731308551}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1731308553 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3898754115713782296, guid: 008d41327f056c34881f47d3027201ae,
+    type: 3}
+  m_PrefabInstance: {fileID: 1731308551}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1731308554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1731308553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e044ecb97554ac541b5824502cb3a028, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textItem: {fileID: 1731308555}
+--- !u!114 &1731308555 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3898754115713782302, guid: 008d41327f056c34881f47d3027201ae,
+    type: 3}
+  m_PrefabInstance: {fileID: 1731308551}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1731308553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2100752407
 GameObject:
   m_ObjectHideFlags: 0
@@ -3398,6 +3434,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 7431665436125748565}
+        m_MethodName: ButtonPress
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!224 &7824319522758541875
@@ -3628,6 +3675,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 7431665436125748565}
+        m_MethodName: ButtonPress
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!224 &7824319522991047459
@@ -3831,6 +3889,17 @@ MonoBehaviour:
       - m_Target: {fileID: 162685782}
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 7431665436125748565}
+        m_MethodName: ButtonPress
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -4196,6 +4265,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 7431665436125748565}
+        m_MethodName: ButtonPress
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!222 &7824319523340630297
@@ -4339,6 +4419,17 @@ MonoBehaviour:
       - m_Target: {fileID: 162685782}
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 7431665436125748565}
+        m_MethodName: ButtonPress
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -4601,6 +4692,17 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 7824319524157243409}
         m_MethodName: use_jumping_conc
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 7431665436125748565}
+        m_MethodName: ButtonPress
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5012,6 +5114,7 @@ GameObject:
   - component: {fileID: 3022092104014349014}
   - component: {fileID: 2350466372793215031}
   - component: {fileID: 3239022535796054840}
+  - component: {fileID: 8182115003865592583}
   m_Layer: 5
   m_Name: TextMeshPro Text
   m_TagString: Untagged
@@ -5019,6 +5122,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &8182115003865592583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8182115003865592582}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e044ecb97554ac541b5824502cb3a028, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textItem: {fileID: 3239022535796054840}
 --- !u!114 &8220202417484063231
 MonoBehaviour:
   m_ObjectHideFlags: 0

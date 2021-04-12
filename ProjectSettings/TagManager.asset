@@ -12,6 +12,7 @@ TagManager:
   - sule2
   - TextPop
   - Exit
+  - DialogueName
   layers:
   - Default
   - TransparentFX

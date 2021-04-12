@@ -14,6 +14,7 @@ public class Location_update_ui : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        dict.Add(1, "loading...");
         dict.Add(2, "Backyard");
         dict.Add(3, "Sports Complex");
         dict.Add(4, "Sports Complex");
@@ -39,7 +40,10 @@ public class Location_update_ui : MonoBehaviour
         dict.Add(24, "Khoka");
         dict.Add(25, "Khoka");
         dict.Add(26, "Khoka");
-        
+        dict.Add(27, "Customize");
+        dict.Add(28, "Customize");
+        dict.Add(30, "Customize");
+
 
     }
 

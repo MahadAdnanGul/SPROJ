@@ -24,4 +24,9 @@ public class ChoiceBoardGender : MonoBehaviour
     {
         
     }
+
+    public void ButtonPress()
+    {
+        FindObjectOfType<GameManager>().IncreaseLevelProgress();
+    }
 }

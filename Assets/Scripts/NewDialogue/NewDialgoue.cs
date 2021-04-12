@@ -48,7 +48,7 @@ public class NewDialgoue : MonoBehaviour
         }
         else
         {
-            Debug.Log("ohno");
+            
             gameObject.GetComponent<ResetDialogue>().Reset();
             gameObject.SetActive(false);
         }
