@@ -1,0 +1,372 @@
+fileFormatVersion: 2
+guid: 3724f6fed38f8aa4db414b0d25ef850e
+ScriptedImporter:
+  fileIDToRecycleName:
+    100000: girl customisation (1)_GO/girl customisation (1)_GO
+    100002: girl customisation (1)_GO/girl customisation (1)_GO/body figure
+    100004: girl customisation (1)_GO/girl customisation (1)_GO/bottom 4
+    100006: girl customisation (1)_GO/girl customisation (1)_GO/Expression 1
+    100008: girl customisation (1)_GO/girl customisation (1)_GO/hair 1
+    100010: girl customisation (1)_GO/girl customisation (1)_GO/Layer 1
+    100012: girl customisation (1)_GO/girl customisation (1)_GO/Shirt 1
+    100014: girl customisation (1)_GO/girl customisation (1)_GO/shoes 4
+    400000: girl customisation (1)_GO/girl customisation (1)_GO/Transform
+    400002: girl customisation (1)_GO/girl customisation (1)_GO/body figure/Transform
+    400004: girl customisation (1)_GO/girl customisation (1)_GO/bottom 4/Transform
+    400006: girl customisation (1)_GO/girl customisation (1)_GO/Expression 1/Transform
+    400008: girl customisation (1)_GO/girl customisation (1)_GO/hair 1/Transform
+    400010: girl customisation (1)_GO/girl customisation (1)_GO/Layer 1/Transform
+    400012: girl customisation (1)_GO/girl customisation (1)_GO/Shirt 1/Transform
+    400014: girl customisation (1)_GO/girl customisation (1)_GO/shoes 4/Transform
+    2800000: girl customisation (1)
+    21200000: girl customisation (1)_GO/girl customisation (1)_GO/body figure/SpriteRenderer
+    21200002: girl customisation (1)_GO/girl customisation (1)_GO/bottom 4/SpriteRenderer
+    21200004: girl customisation (1)_GO/girl customisation (1)_GO/Expression 1/SpriteRenderer
+    21200006: girl customisation (1)_GO/girl customisation (1)_GO/hair 1/SpriteRenderer
+    21200008: girl customisation (1)_GO/girl customisation (1)_GO/Layer 1/SpriteRenderer
+    21200010: girl customisation (1)_GO/girl customisation (1)_GO/Shirt 1/SpriteRenderer
+    21200012: girl customisation (1)_GO/girl customisation (1)_GO/shoes 4/SpriteRenderer
+    21300000: 2291b4ea96f5d4246a3803082c908a4e
+    21300002: dbe60e2aa92a38d43a2eabfbd1bfd755
+    21300004: f5c9bf904376ddf49b007cd029fefe9e
+    21300006: e71bbcbb357b5884a95978dc05d77007
+    21300008: 5403e2b0e5263f94abfa91caa2c74ebe
+    21300010: 718ea00fc41faae40b2d015df5d35419
+    21300012: 6c0c5486af6fc774fb19686cfc27fd7b
+    100100000: girl customisation (1)_GO
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: shoes 4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3527
+      width: 367
+      height: 77
+    spriteID: 2291b4ea96f5d4246a3803082c908a4e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -855, y: 3425}
+  - name: Expression 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3612
+      width: 135
+      height: 144
+    spriteID: dbe60e2aa92a38d43a2eabfbd1bfd755
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -1001, y: 1674}
+  - name: hair 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3121
+      width: 426
+      height: 398
+    spriteID: f5c9bf904376ddf49b007cd029fefe9e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -807, y: 1270}
+  - name: Layer 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3764
+      width: 88
+      height: 158
+    spriteID: e71bbcbb357b5884a95978dc05d77007
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -802, y: 2770}
+  - name: Shirt 1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 450
+      y: 4
+      width: 573
+      height: 741
+    spriteID: 5403e2b0e5263f94abfa91caa2c74ebe
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -296, y: -1133}
+  - name: bottom 4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2112
+      width: 393
+      height: 1001
+    spriteID: 718ea00fc41faae40b2d015df5d35419
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -808, y: 1931}
+  - name: body figure
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 438
+      height: 2100
+    spriteID: 6c0c5486af6fc774fb19686cfc27fd7b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -844, y: -113}
+  platformSettings: []
+  mosaicLayers: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  importedTextureWidth: 1024
+  importedTextureHeight: 2048
+  documentSize: {x: 2100, y: 2351}
+  textureActualWidth: 2048
+  textureActualHeight: 4096
+  spritePackingTag: 
+  resliceFromLayer: 0
+  characterMode: 1
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: shoes
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 
+    layerID: 43
+    mosaicPosition: {x: 0, y: 0}
+  - name: shoes 4
+    spriteName: shoes 4
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 2291b4ea96f5d4246a3803082c908a4e
+    layerID: 51
+    mosaicPosition: {x: 4, y: 3527}
+  - name: Expressions
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 
+    layerID: 29
+    mosaicPosition: {x: 0, y: 0}
+  - name: Expression 1
+    spriteName: Expression 1
+    isGroup: 0
+    parentIndex: 2
+    spriteID: dbe60e2aa92a38d43a2eabfbd1bfd755
+    layerID: 27
+    mosaicPosition: {x: 4, y: 3612}
+  - name: Hairstyles
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 
+    layerID: 17
+    mosaicPosition: {x: 0, y: 0}
+  - name: hair 1
+    spriteName: hair 1
+    isGroup: 0
+    parentIndex: 4
+    spriteID: f5c9bf904376ddf49b007cd029fefe9e
+    layerID: 25
+    mosaicPosition: {x: 4, y: 3121}
+  - name: Layer 1
+    spriteName: Layer 1
+    isGroup: 0
+    parentIndex: -1
+    spriteID: e71bbcbb357b5884a95978dc05d77007
+    layerID: 12
+    mosaicPosition: {x: 4, y: 3764}
+  - name: shirts
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 
+    layerID: 6
+    mosaicPosition: {x: 0, y: 0}
+  - name: Shirt 1
+    spriteName: Shirt 1
+    isGroup: 0
+    parentIndex: 7
+    spriteID: 5403e2b0e5263f94abfa91caa2c74ebe
+    layerID: 15
+    mosaicPosition: {x: 450, y: 4}
+  - name: Bottoms
+    spriteName: 
+    isGroup: 1
+    parentIndex: 7
+    spriteID: 
+    layerID: 33
+    mosaicPosition: {x: 0, y: 0}
+  - name: bottom 4
+    spriteName: bottom 4
+    isGroup: 0
+    parentIndex: 9
+    spriteID: 718ea00fc41faae40b2d015df5d35419
+    layerID: 39
+    mosaicPosition: {x: 4, y: 2112}
+  - name: body figure
+    spriteName: body figure
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 6c0c5486af6fc774fb19686cfc27fd7b
+    layerID: 2
+    mosaicPosition: {x: 4, y: 4}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+  boneGOs: []
+  generateGOHierarchy: 0
+  textureAssetName: girl customisation (1)
+  prefabAssetName: girl customisation (1)_GO

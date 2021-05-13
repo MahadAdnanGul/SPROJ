@@ -41,7 +41,10 @@ public class DynamicObjectCamera : MonoBehaviour
         deadZonesN = new float[dynamicObj.Length];
         distance_p = camera_max - camera_current;
         distance_n = camera_current - camera_min;
-
+        if(GameObject.FindGameObjectWithTag("Player")!=null)
+        {
+            dynamicObj[dynamicObj.Length - 1] = GameObject.FindGameObjectWithTag("Player");
+        }
         for(int i =0;i<dynamicObj.Length;i++)
         {
             deadZonesP[i] = dynamicObj[i].transform.position.x - distance_p / moveFactor[i];

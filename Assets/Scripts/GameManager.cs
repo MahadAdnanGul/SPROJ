@@ -12,10 +12,46 @@ public class GameManager : MonoBehaviour
     public TextMeshProUGUI levelText;
     private int currentLevel;
     private int[] sliderVals = { 10, 10, 10, 10 };
+    public TextMeshProUGUI chapterText;
+    public bool lunch_with_oweekFriend;
+    public bool lunch_with_friends;
+    public Sprite[] pdcSprite = new Sprite[3];
     // Start is called before the first frame update
+
+    public bool loweek
+    {
+        get { return lunch_with_oweekFriend; }
+        set { lunch_with_oweekFriend = value; }
+    }
+    public bool lfriends
+    {
+        get { return lunch_with_friends; }
+        set { lunch_with_friends = value; }
+    }
     void Start()
     {
         UpdateLevel();
+        
+    }
+    private void FixedUpdate()
+    {
+        UpdateChapter();
+    }
+
+    public void PDC(SpriteRenderer target)
+    {
+        if(lunch_with_friends==true)
+        {
+            target.sprite = pdcSprite[0];
+        }
+        else if(lunch_with_oweekFriend==true)
+        {
+            target.sprite = pdcSprite[1];
+        }
+        else
+        {
+            target.sprite = pdcSprite[2];
+        }
     }
 
     public void IncreaseLevelProgress()
@@ -45,6 +81,7 @@ public class GameManager : MonoBehaviour
     public void Next()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        
     }
 
     public void EnterNameScene()
@@ -66,5 +103,14 @@ public class GameManager : MonoBehaviour
     {
         objButton.SetActive(true);
         SceneManager.LoadScene("Start");
+    }
+    public void UpdateChapter()
+    {
+        if (SceneManager.GetActiveScene().buildIndex < 13)
+            chapterText.text = "Chapter 1";
+        else if (SceneManager.GetActiveScene().buildIndex < 17)
+            chapterText.text = "Chapter 2";
+        else if (SceneManager.GetActiveScene().buildIndex < 21)
+            chapterText.text = "Chapter 3";
     }
 }

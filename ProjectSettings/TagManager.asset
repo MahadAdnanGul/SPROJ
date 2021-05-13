@@ -13,6 +13,7 @@ TagManager:
   - TextPop
   - Exit
   - DialogueName
+  - Level
   layers:
   - Default
   - TransparentFX
@@ -79,4 +80,10 @@ TagManager:
     locked: 0
   - name: player_hair
     uniqueID: 1828901543
+    locked: 0
+  - name: postplayer
+    uniqueID: 2036216523
+    locked: 0
+  - name: PostPlayer2
+    uniqueID: 4016659301
     locked: 0
