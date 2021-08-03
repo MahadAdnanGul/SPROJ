@@ -11,17 +11,24 @@ public class GameManager : MonoBehaviour
     public Slider levelBar;
     public TextMeshProUGUI levelText;
     private int currentLevel;
-    private int[] sliderVals = { 10, 10, 10, 10 };
+    private int[] sliderVals = { 10, 10, 10, 10, 10, 10 };
     public TextMeshProUGUI chapterText;
     public bool lunch_with_oweekFriend;
     public bool lunch_with_friends;
+    public string colorDay;
     public Sprite[] pdcSprite = new Sprite[3];
+    public int year = 1;
     // Start is called before the first frame update
 
     public bool loweek
     {
         get { return lunch_with_oweekFriend; }
         set { lunch_with_oweekFriend = value; }
+    }
+    public string cDay
+    {
+        get { return colorDay; }
+        set { colorDay = value; }
     }
     public bool lfriends
     {
@@ -106,11 +113,15 @@ public class GameManager : MonoBehaviour
     }
     public void UpdateChapter()
     {
-        if (SceneManager.GetActiveScene().buildIndex < 13)
+        if (SceneManager.GetActiveScene().buildIndex < 15)
             chapterText.text = "Chapter 1";
-        else if (SceneManager.GetActiveScene().buildIndex < 17)
+        else if (SceneManager.GetActiveScene().buildIndex < 20)
             chapterText.text = "Chapter 2";
-        else if (SceneManager.GetActiveScene().buildIndex < 21)
+        else if (SceneManager.GetActiveScene().buildIndex < 26)
             chapterText.text = "Chapter 3";
+        else if (SceneManager.GetActiveScene().buildIndex < 32)
+            chapterText.text = "Chapter 4";
+        else if (SceneManager.GetActiveScene().buildIndex < 34)
+            chapterText.text = "Chapter 5";
     }
 }

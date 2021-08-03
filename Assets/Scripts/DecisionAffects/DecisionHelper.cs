@@ -13,6 +13,11 @@ public class DecisionHelper : MonoBehaviour
     {
         FindObjectOfType<GameManager>().lunch_with_friends = val;
     }
+    public void SetColor(string val)
+    {
+        FindObjectOfType<GameManager>().cDay = val;
+    }
+
 
     // Update is called once per frame
 

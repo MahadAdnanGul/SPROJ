@@ -12,8 +12,10 @@ public class PlayerName : MonoBehaviour
     {
         if(gameObject.CompareTag("DialogueName"))
         textItem.text = PlayerPrefs.GetString("Name", "Bob");
+        else if(gameObject.CompareTag("FeelingText"))
+            textItem.text = "How is " + PlayerPrefs.GetString("Name", "Bob") + " feeling?";
         else
-        textItem.text="What is "+ PlayerPrefs.GetString("Name", "Bob")+" thinking?";
+            textItem.text="What is "+ PlayerPrefs.GetString("Name", "Bob")+" thinking?";
     }
 
     // Update is called once per frame

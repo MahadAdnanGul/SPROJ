@@ -1010,6 +1010,7 @@ GameObject:
   - component: {fileID: 6473199494097922514}
   - component: {fileID: 6473199494097922515}
   - component: {fileID: 6473199494097922512}
+  - component: {fileID: 5830301457099511982}
   m_Layer: 5
   m_Name: UI_HUD
   m_TagString: UI
@@ -1133,10 +1134,24 @@ MonoBehaviour:
   chapterText: {fileID: 6473199493677066214}
   lunch_with_oweekFriend: 0
   lunch_with_friends: 0
+  colorDay: 
   pdcSprite:
   - {fileID: 21300000, guid: 304c36fd02ce9684880aa19dced68764, type: 3}
   - {fileID: 21300000, guid: 0752a8bc5650ddc43b53b77660f2ca21, type: 3}
   - {fileID: 21300000, guid: 6d8d14d684e580c4caa927b0f9edfe52, type: 3}
+--- !u!114 &5830301457099511982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6473199494097922513}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e154a5a7687023645b1c7b285ccfb191, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  filename: ChoiceData
 --- !u!1 &6473199494115627308
 GameObject:
   m_ObjectHideFlags: 0

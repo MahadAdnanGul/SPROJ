@@ -29,6 +29,26 @@ public class Exit : MonoBehaviour
 
 
     }
+    public void LoadCustom(string name)
+    {
+
+
+        SceneManager.LoadScene(name);
+
+
+
+
+    }
+    public void NextNext()
+    {
+
+
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
+
+
+
+
+    }
     public void delay_exiting(int choices,float time)
     {
 
