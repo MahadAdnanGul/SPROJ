@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+    public GameObject topHud;
     public GameObject objButton;
     public Slider levelBar;
     public TextMeshProUGUI levelText;
@@ -108,7 +109,8 @@ public class GameManager : MonoBehaviour
     }
     public void StartGame()
     {
-        objButton.SetActive(true);
+        topHud.SetActive(true);
+        //objButton.SetActive(true);
         SceneManager.LoadScene("Start");
     }
     public void UpdateChapter()

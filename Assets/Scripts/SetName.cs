@@ -25,6 +25,19 @@ public class SetName : MonoBehaviour
     }
     public void StartGame()
     {
+        if (PlayerPrefs.GetString("boy", "X")=="True") 
+        {
+            FindObjectOfType<GameManager>().CustomizeBoyScene();
+        }
+        else
+        {
+            FindObjectOfType<GameManager>().CustomizeGirlScene();
+        }
+        
+    }
+    public void StartGameREAL()
+    {
+
         FindObjectOfType<GameManager>().StartGame();
     }
 }

@@ -21,6 +21,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Start.unity
     guid: 8ae47fcbc9a34d44cb4b3560829a39d9
   - enabled: 1
+    path: Assets/Scenes/PreText.unity
+    guid: e4deb58ab60b13e4a897f5fa983defee
+  - enabled: 1
     path: Assets/Scenes/FreshmenYear/Chapter_1_Oweek_2.unity
     guid: c6e6ece6f1f53c1458abc947761cec5f
   - enabled: 1

@@ -106,4 +106,22 @@ public class Feedback_sprite : MonoBehaviour
         FindObjectOfType<InputHandler>().AddNameToList(Type.Distortion, gm.year, int.Parse(ch), disc);
 
     }
+    public void Positive()
+    {
+        string disc = "Positive";
+        string ch = gm.chapterText.text[gm.chapterText.text.Length - 1].ToString();
+        FindObjectOfType<InputHandler>().AddNameToList(Type.Distortion, gm.year, int.Parse(ch), disc);
+    }
+    public void Neutral()
+    {
+        string disc = "Neutral";
+        string ch = gm.chapterText.text[gm.chapterText.text.Length - 1].ToString();
+        FindObjectOfType<InputHandler>().AddNameToList(Type.Distortion, gm.year, int.Parse(ch), disc);
+    }
+    public void Chill()
+    {
+        string disc = "Chill";
+        string ch = gm.chapterText.text[gm.chapterText.text.Length - 1].ToString();
+        FindObjectOfType<InputHandler>().AddNameToList(Type.Distortion, gm.year, int.Parse(ch), disc);
+    }
 }
