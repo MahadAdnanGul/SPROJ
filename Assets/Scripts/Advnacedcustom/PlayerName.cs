@@ -14,6 +14,10 @@ public class PlayerName : MonoBehaviour
         textItem.text = PlayerPrefs.GetString("Name", "Bob");
         else if(gameObject.CompareTag("FeelingText"))
             textItem.text = "How is " + PlayerPrefs.GetString("Name", "Bob") + " feeling?";
+        else if(gameObject.CompareTag("DecisionText"))
+        {
+            textItem.text = "What does " + PlayerPrefs.GetString("Name", "Bob") + " do?";
+        }
         else
             textItem.text="What is "+ PlayerPrefs.GetString("Name", "Bob")+" thinking?";
     }

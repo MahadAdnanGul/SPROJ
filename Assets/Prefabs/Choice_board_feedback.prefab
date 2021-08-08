@@ -254,7 +254,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &6487107156267342202
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1101,7 +1101,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &7824319522184488842
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1137,7 +1137,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7824319522184488843}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
@@ -1181,6 +1181,10 @@ MonoBehaviour:
     type: 3}
   personalization: {fileID: 21300000, guid: 68264404274550641b765498b1decf1f, type: 3}
   should_must: {fileID: 21300000, guid: b09bdad207f24d74f8a268dc1817a56c, type: 3}
+  mental_filtering: {fileID: 21300000, guid: 7a0ef9152acb09c44a965a66afe65920, type: 3}
+  heaven_fallacy: {fileID: 21300000, guid: 5e15fa0bd18dd5240a9df1c26f110000, type: 3}
+  blaming: {fileID: 21300000, guid: 23fb177f446812a48bbc3065a3a4e816, type: 3}
+  button: {fileID: 725679744573618959}
 --- !u!114 &9177705958628722227
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3197,7 +3201,6 @@ GameObject:
   - component: {fileID: 3022092103778297160}
   - component: {fileID: 2350466370810482601}
   - component: {fileID: 3239022535096269990}
-  - component: {fileID: 2418348772483516885}
   m_Layer: 5
   m_Name: TextMeshPro Text
   m_TagString: Untagged
@@ -3347,19 +3350,6 @@ MonoBehaviour:
   - {fileID: 0}
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!114 &2418348772483516885
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8182115003561890968}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e044ecb97554ac541b5824502cb3a028, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textItem: {fileID: 3239022535096269990}
 --- !u!1 &8925861689485667990
 GameObject:
   m_ObjectHideFlags: 0

@@ -43,9 +43,9 @@ public class GirlGetOutfitSittingHalf : MonoBehaviour
 
         hair_styles_vector = new Vector2[4];
         hair_styles_vector[0] = new Vector2(-0.24f, 2.06f);
-        hair_styles_vector[1] = new Vector2(-0.211f, 1.683f);
+        hair_styles_vector[1] = new Vector2(-0.12f, 1.3f);
         hair_styles_vector[2] = new Vector2(0f, 1.07f);
-        hair_styles_vector[3] = new Vector2(-0.03f, 1.3f);
+        hair_styles_vector[3] = new Vector2(-0.18f, 1.67f);
 
         HairIndex = PlayerPrefs.GetInt("GirlHair", 0);
         //Hair

@@ -1047,10 +1047,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bc3691b8f06bde499bc7cb6c7703728, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Boy: {fileID: 8741334133144140974, guid: 7d06ace23c0ad444d9f9884053162853, type: 3}
+  Boy: {fileID: 7370989298527581595, guid: 07593e39ded90bc4095107ecbbf8c90f, type: 3}
   Girl: {fileID: 8405246894115399120, guid: 184c781d235a3f340aefb678cd3e1811, type: 3}
   Position: {x: -4.09, y: -1.2}
-  BoyScale: {x: 0.6, y: 0.6}
+  BoyScale: {x: 1, y: 1}
   GirlScale: {x: 1, y: 1}
 --- !u!114 &847830754
 MonoBehaviour:
@@ -2399,11 +2399,6 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1438190269}
-    - target: {fileID: 7824319523367363772, guid: 98d08b0cfee84c748b94f864fac38f05,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: use_catas
-      objectReference: {fileID: 0}
     - target: {fileID: 7824319523599902124, guid: 98d08b0cfee84c748b94f864fac38f05,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
@@ -2529,6 +2524,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_isInputParsingRequired
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 123701990814502211, guid: 98d08b0cfee84c748b94f864fac38f05,
+        type: 3}
+      propertyPath: trigger
+      value: 
+      objectReference: {fileID: 1673669309}
+    - target: {fileID: 7824319523367363772, guid: 98d08b0cfee84c748b94f864fac38f05,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: use_catas
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 98d08b0cfee84c748b94f864fac38f05, type: 3}
@@ -2867,11 +2872,6 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[4].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.UI.Text, UnityEngine.UI
       objectReference: {fileID: 0}
-    - target: {fileID: 4846814461999602281, guid: 2f360a6819b2e1a45b7cdf6e5179eec5,
-        type: 3}
-      propertyPath: resetTrigger
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4846814460716269489, guid: 2f360a6819b2e1a45b7cdf6e5179eec5,
         type: 3}
       propertyPath: m_Text
@@ -2881,6 +2881,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Text
       value: Go with friends
+      objectReference: {fileID: 0}
+    - target: {fileID: 4846814461999602281, guid: 2f360a6819b2e1a45b7cdf6e5179eec5,
+        type: 3}
+      propertyPath: resetTrigger
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2f360a6819b2e1a45b7cdf6e5179eec5, type: 3}

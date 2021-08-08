@@ -861,6 +861,31 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgument
       value: 
       objectReference: {fileID: 179001456}
+    - target: {fileID: 2803336730987329253, guid: acff1393b3bcae341ae6aec00709a2c4,
+        type: 3}
+      propertyPath: m_Text
+      value: One last pasta at Jammin
+      objectReference: {fileID: 0}
+    - target: {fileID: 2803336729250742965, guid: acff1393b3bcae341ae6aec00709a2c4,
+        type: 3}
+      propertyPath: m_Text
+      value: One last chai at the Khoka
+      objectReference: {fileID: 0}
+    - target: {fileID: 8454491330335781919, guid: acff1393b3bcae341ae6aec00709a2c4,
+        type: 3}
+      propertyPath: m_Text
+      value: One last late night campus stroll
+      objectReference: {fileID: 0}
+    - target: {fileID: 8454491331186920795, guid: acff1393b3bcae341ae6aec00709a2c4,
+        type: 3}
+      propertyPath: m_Text
+      value: One last class
+      objectReference: {fileID: 0}
+    - target: {fileID: 8454491330422563665, guid: acff1393b3bcae341ae6aec00709a2c4,
+        type: 3}
+      propertyPath: m_Text
+      value: One last study group before finals
+      objectReference: {fileID: 0}
     - target: {fileID: 2803336730276565667, guid: acff1393b3bcae341ae6aec00709a2c4,
         type: 3}
       propertyPath: m_text
@@ -890,31 +915,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_textInfo.wordCount
       value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 2803336729250742965, guid: acff1393b3bcae341ae6aec00709a2c4,
-        type: 3}
-      propertyPath: m_Text
-      value: One last chai at the Khoka
-      objectReference: {fileID: 0}
-    - target: {fileID: 2803336730987329253, guid: acff1393b3bcae341ae6aec00709a2c4,
-        type: 3}
-      propertyPath: m_Text
-      value: One last pasta at Jammin
-      objectReference: {fileID: 0}
-    - target: {fileID: 8454491330335781919, guid: acff1393b3bcae341ae6aec00709a2c4,
-        type: 3}
-      propertyPath: m_Text
-      value: One last late night campus stroll
-      objectReference: {fileID: 0}
-    - target: {fileID: 8454491331186920795, guid: acff1393b3bcae341ae6aec00709a2c4,
-        type: 3}
-      propertyPath: m_Text
-      value: One last class
-      objectReference: {fileID: 0}
-    - target: {fileID: 8454491330422563665, guid: acff1393b3bcae341ae6aec00709a2c4,
-        type: 3}
-      propertyPath: m_Text
-      value: One last study group before finals
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: acff1393b3bcae341ae6aec00709a2c4, type: 3}
@@ -1120,7 +1120,7 @@ PrefabInstance:
     - target: {fileID: 288324262967324211, guid: 0159cdb425f2e4640bbedf7aef4f32f5,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -150
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 288324262967324211, guid: 0159cdb425f2e4640bbedf7aef4f32f5,
         type: 3}
@@ -1140,7 +1140,7 @@ PrefabInstance:
     - target: {fileID: 288324262967324211, guid: 0159cdb425f2e4640bbedf7aef4f32f5,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 288324262967324211, guid: 0159cdb425f2e4640bbedf7aef4f32f5,
         type: 3}
@@ -1150,7 +1150,7 @@ PrefabInstance:
     - target: {fileID: 288324262967324211, guid: 0159cdb425f2e4640bbedf7aef4f32f5,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 288324262967324211, guid: 0159cdb425f2e4640bbedf7aef4f32f5,
         type: 3}
@@ -1798,7 +1798,7 @@ PrefabInstance:
     - target: {fileID: 288324262967324211, guid: 0159cdb425f2e4640bbedf7aef4f32f5,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -150
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 288324262967324211, guid: 0159cdb425f2e4640bbedf7aef4f32f5,
         type: 3}
@@ -1818,7 +1818,7 @@ PrefabInstance:
     - target: {fileID: 288324262967324211, guid: 0159cdb425f2e4640bbedf7aef4f32f5,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 288324262967324211, guid: 0159cdb425f2e4640bbedf7aef4f32f5,
         type: 3}
@@ -1828,7 +1828,7 @@ PrefabInstance:
     - target: {fileID: 288324262967324211, guid: 0159cdb425f2e4640bbedf7aef4f32f5,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 288324262967324211, guid: 0159cdb425f2e4640bbedf7aef4f32f5,
         type: 3}
@@ -2062,7 +2062,7 @@ PrefabInstance:
     - target: {fileID: 288324262967324211, guid: 0159cdb425f2e4640bbedf7aef4f32f5,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -150
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 288324262967324211, guid: 0159cdb425f2e4640bbedf7aef4f32f5,
         type: 3}
@@ -2082,7 +2082,7 @@ PrefabInstance:
     - target: {fileID: 288324262967324211, guid: 0159cdb425f2e4640bbedf7aef4f32f5,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 288324262967324211, guid: 0159cdb425f2e4640bbedf7aef4f32f5,
         type: 3}
@@ -2092,7 +2092,7 @@ PrefabInstance:
     - target: {fileID: 288324262967324211, guid: 0159cdb425f2e4640bbedf7aef4f32f5,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 288324262967324211, guid: 0159cdb425f2e4640bbedf7aef4f32f5,
         type: 3}
@@ -3336,6 +3336,31 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgument
       value: 
       objectReference: {fileID: 2099096656}
+    - target: {fileID: 2803336730987329253, guid: acff1393b3bcae341ae6aec00709a2c4,
+        type: 3}
+      propertyPath: m_Text
+      value: Black
+      objectReference: {fileID: 0}
+    - target: {fileID: 2803336729250742965, guid: acff1393b3bcae341ae6aec00709a2c4,
+        type: 3}
+      propertyPath: m_Text
+      value: Red
+      objectReference: {fileID: 0}
+    - target: {fileID: 8454491330335781919, guid: acff1393b3bcae341ae6aec00709a2c4,
+        type: 3}
+      propertyPath: m_Text
+      value: Blue
+      objectReference: {fileID: 0}
+    - target: {fileID: 8454491331186920795, guid: acff1393b3bcae341ae6aec00709a2c4,
+        type: 3}
+      propertyPath: m_Text
+      value: Yellow
+      objectReference: {fileID: 0}
+    - target: {fileID: 8454491330422563665, guid: acff1393b3bcae341ae6aec00709a2c4,
+        type: 3}
+      propertyPath: m_Text
+      value: Green
+      objectReference: {fileID: 0}
     - target: {fileID: 2803336730276565667, guid: acff1393b3bcae341ae6aec00709a2c4,
         type: 3}
       propertyPath: m_text
@@ -3365,31 +3390,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_textInfo.wordCount
       value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 2803336729250742965, guid: acff1393b3bcae341ae6aec00709a2c4,
-        type: 3}
-      propertyPath: m_Text
-      value: Red
-      objectReference: {fileID: 0}
-    - target: {fileID: 2803336730987329253, guid: acff1393b3bcae341ae6aec00709a2c4,
-        type: 3}
-      propertyPath: m_Text
-      value: Black
-      objectReference: {fileID: 0}
-    - target: {fileID: 8454491330335781919, guid: acff1393b3bcae341ae6aec00709a2c4,
-        type: 3}
-      propertyPath: m_Text
-      value: Blue
-      objectReference: {fileID: 0}
-    - target: {fileID: 8454491331186920795, guid: acff1393b3bcae341ae6aec00709a2c4,
-        type: 3}
-      propertyPath: m_Text
-      value: Yellow
-      objectReference: {fileID: 0}
-    - target: {fileID: 8454491330422563665, guid: acff1393b3bcae341ae6aec00709a2c4,
-        type: 3}
-      propertyPath: m_Text
-      value: Green
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: acff1393b3bcae341ae6aec00709a2c4, type: 3}

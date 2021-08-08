@@ -602,7 +602,6 @@ GameObject:
   - component: {fileID: 2803336730276565664}
   - component: {fileID: 2803336730276565666}
   - component: {fileID: 2803336730276565667}
-  - component: {fileID: 8296706315045868220}
   m_Layer: 5
   m_Name: MainText
   m_TagString: FeelingText
@@ -752,19 +751,6 @@ MonoBehaviour:
   - {fileID: 0}
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!114 &8296706315045868220
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2803336730276565665}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e044ecb97554ac541b5824502cb3a028, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textItem: {fileID: 2803336730276565667}
 --- !u!1 &2803336730987329275
 GameObject:
   m_ObjectHideFlags: 0

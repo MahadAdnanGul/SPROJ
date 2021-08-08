@@ -2899,6 +2899,10 @@ MonoBehaviour:
     type: 3}
   personalization: {fileID: 21300000, guid: 68264404274550641b765498b1decf1f, type: 3}
   should_must: {fileID: 21300000, guid: b09bdad207f24d74f8a268dc1817a56c, type: 3}
+  mental_filtering: {fileID: 0}
+  heaven_fallacy: {fileID: 0}
+  blaming: {fileID: 0}
+  button: {fileID: 0}
 --- !u!114 &1557514903
 MonoBehaviour:
   m_ObjectHideFlags: 0

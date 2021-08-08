@@ -534,6 +534,31 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2803336730987329253, guid: acff1393b3bcae341ae6aec00709a2c4,
+        type: 3}
+      propertyPath: m_Text
+      value: Reply and say you were so you won't be able to do it.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2803336729250742965, guid: acff1393b3bcae341ae6aec00709a2c4,
+        type: 3}
+      propertyPath: m_Text
+      value: Ignore the text
+      objectReference: {fileID: 0}
+    - target: {fileID: 8454491329602871692, guid: acff1393b3bcae341ae6aec00709a2c4,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8454491331186920795, guid: acff1393b3bcae341ae6aec00709a2c4,
+        type: 3}
+      propertyPath: m_Text
+      value: Reply and say you were unwell so you need some more time
+      objectReference: {fileID: 0}
+    - target: {fileID: 8454491330422563665, guid: acff1393b3bcae341ae6aec00709a2c4,
+        type: 3}
+      propertyPath: m_Text
+      value: Lie and say you have finished
+      objectReference: {fileID: 0}
     - target: {fileID: 2803336729585750833, guid: acff1393b3bcae341ae6aec00709a2c4,
         type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -553,11 +578,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 1250
-      objectReference: {fileID: 0}
-    - target: {fileID: 8454491329602871692, guid: acff1393b3bcae341ae6aec00709a2c4,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2803336730276565667, guid: acff1393b3bcae341ae6aec00709a2c4,
         type: 3}
@@ -588,26 +608,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_textInfo.wordCount
       value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 2803336729250742965, guid: acff1393b3bcae341ae6aec00709a2c4,
-        type: 3}
-      propertyPath: m_Text
-      value: Ignore the text
-      objectReference: {fileID: 0}
-    - target: {fileID: 2803336730987329253, guid: acff1393b3bcae341ae6aec00709a2c4,
-        type: 3}
-      propertyPath: m_Text
-      value: Reply and say you were so you won't be able to do it.
-      objectReference: {fileID: 0}
-    - target: {fileID: 8454491331186920795, guid: acff1393b3bcae341ae6aec00709a2c4,
-        type: 3}
-      propertyPath: m_Text
-      value: Reply and say you were unwell so you need some more time
-      objectReference: {fileID: 0}
-    - target: {fileID: 8454491330422563665, guid: acff1393b3bcae341ae6aec00709a2c4,
-        type: 3}
-      propertyPath: m_Text
-      value: Lie and say you have finished
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: acff1393b3bcae341ae6aec00709a2c4, type: 3}
@@ -1906,6 +1906,11 @@ PrefabInstance:
       propertyPath: m_isInputParsingRequired
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 123701990814502211, guid: 98d08b0cfee84c748b94f864fac38f05,
+        type: 3}
+      propertyPath: trigger
+      value: 
+      objectReference: {fileID: 156304321}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 98d08b0cfee84c748b94f864fac38f05, type: 3}
 --- !u!1 &552848599 stripped

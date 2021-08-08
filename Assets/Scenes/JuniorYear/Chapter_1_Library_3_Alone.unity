@@ -825,10 +825,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bc3691b8f06bde499bc7cb6c7703728, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Boy: {fileID: 8741334133144140974, guid: 7d06ace23c0ad444d9f9884053162853, type: 3}
+  Boy: {fileID: 7370989298527581595, guid: 07593e39ded90bc4095107ecbbf8c90f, type: 3}
   Girl: {fileID: 8405246894115399120, guid: 184c781d235a3f340aefb678cd3e1811, type: 3}
   Position: {x: -4.09, y: -1.2}
-  BoyScale: {x: 0.6, y: 0.6}
+  BoyScale: {x: 1, y: 1}
   GirlScale: {x: 1, y: 1}
 --- !u!114 &847830754
 MonoBehaviour:

@@ -16,6 +16,7 @@ TagManager:
   - Level
   - FeelingText
   - ChoiceBoard
+  - DecisionText
   layers:
   - Default
   - TransparentFX

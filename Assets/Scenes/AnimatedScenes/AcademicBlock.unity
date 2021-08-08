@@ -1708,22 +1708,32 @@ PrefabInstance:
     - target: {fileID: 4184266214071211096, guid: 0159cdb425f2e4640bbedf7aef4f32f5,
         type: 3}
       propertyPath: m_text
-      value: Here is the academic block
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 4184266214071211096, guid: 0159cdb425f2e4640bbedf7aef4f32f5,
         type: 3}
       propertyPath: m_textInfo.characterCount
-      value: 26
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4184266214071211096, guid: 0159cdb425f2e4640bbedf7aef4f32f5,
         type: 3}
       propertyPath: m_textInfo.spaceCount
-      value: 4
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4184266214071211096, guid: 0159cdb425f2e4640bbedf7aef4f32f5,
         type: 3}
       propertyPath: m_textInfo.wordCount
-      value: 5
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4184266214071211096, guid: 0159cdb425f2e4640bbedf7aef4f32f5,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4184266214071211096, guid: 0159cdb425f2e4640bbedf7aef4f32f5,
+        type: 3}
+      propertyPath: m_textInfo.pageCount
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2805408675239649013, guid: 0159cdb425f2e4640bbedf7aef4f32f5,
         type: 3}
@@ -1754,6 +1764,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 3990366546046827346, guid: 0159cdb425f2e4640bbedf7aef4f32f5,
+        type: 3}
+      propertyPath: m_Color.a
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0159cdb425f2e4640bbedf7aef4f32f5, type: 3}
