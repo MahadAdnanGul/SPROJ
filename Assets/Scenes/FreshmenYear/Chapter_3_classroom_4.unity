@@ -1106,7 +1106,7 @@ PrefabInstance:
     - target: {fileID: 4846814462445868696, guid: 2f360a6819b2e1a45b7cdf6e5179eec5,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 1500
+      value: 500
       objectReference: {fileID: 0}
     - target: {fileID: 4846814461999602281, guid: 2f360a6819b2e1a45b7cdf6e5179eec5,
         type: 3}
@@ -1132,6 +1132,16 @@ PrefabInstance:
         type: 3}
       propertyPath: messages.Array.data[1]
       value: Yeah lets do it!
+      objectReference: {fileID: 0}
+    - target: {fileID: 7328401397057773309, guid: 2f360a6819b2e1a45b7cdf6e5179eec5,
+        type: 3}
+      propertyPath: m_havePropertiesChanged
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7328401397057773309, guid: 2f360a6819b2e1a45b7cdf6e5179eec5,
+        type: 3}
+      propertyPath: m_isInputParsingRequired
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2f360a6819b2e1a45b7cdf6e5179eec5, type: 3}
@@ -1821,11 +1831,11 @@ RectTransform:
   m_Children:
   - {fileID: 1853676638}
   m_Father: {fileID: 507323555}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 750, y: 100}
+  m_AnchoredPosition: {x: 250, y: 300}
   m_SizeDelta: {x: 400, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1176828421
@@ -1974,8 +1984,8 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 393d91189595c3f4199f38e31faacb01, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4

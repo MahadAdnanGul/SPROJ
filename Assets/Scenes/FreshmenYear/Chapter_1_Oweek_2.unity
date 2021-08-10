@@ -4943,5 +4943,15 @@ PrefabInstance:
       propertyPath: m_AdditionalShaderChannelsFlag
       value: 25
       objectReference: {fileID: 0}
+    - target: {fileID: 7813751746960264540, guid: 0908bebb2c5123344abc43a9e4dc6944,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -4.3749695
+      objectReference: {fileID: 0}
+    - target: {fileID: 7813751746960264540, guid: 0908bebb2c5123344abc43a9e4dc6944,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 477.25006
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0908bebb2c5123344abc43a9e4dc6944, type: 3}
