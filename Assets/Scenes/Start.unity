@@ -362,7 +362,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   time: 5
-  scene_n: 5
+  scene_n: 7
 --- !u!114 &1106542434
 MonoBehaviour:
   m_ObjectHideFlags: 0

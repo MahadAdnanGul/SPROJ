@@ -901,11 +901,6 @@ PrefabInstance:
       propertyPath: m_Text
       value: One last pasta at Jammin
       objectReference: {fileID: 0}
-    - target: {fileID: 8454491330335781919, guid: acff1393b3bcae341ae6aec00709a2c4,
-        type: 3}
-      propertyPath: m_Text
-      value: One last late night campus stroll
-      objectReference: {fileID: 0}
     - target: {fileID: 8454491331186920795, guid: acff1393b3bcae341ae6aec00709a2c4,
         type: 3}
       propertyPath: m_Text
@@ -915,6 +910,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Text
       value: One last study group before finals
+      objectReference: {fileID: 0}
+    - target: {fileID: 8454491330335781919, guid: acff1393b3bcae341ae6aec00709a2c4,
+        type: 3}
+      propertyPath: m_Text
+      value: One last late night campus stroll
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: acff1393b3bcae341ae6aec00709a2c4, type: 3}
@@ -1198,6 +1198,16 @@ PrefabInstance:
       propertyPath: m_textInfo.lineCount
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 85817726992263707, guid: 0159cdb425f2e4640bbedf7aef4f32f5,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 85817726992263707, guid: 0159cdb425f2e4640bbedf7aef4f32f5,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -60
+      objectReference: {fileID: 0}
     - target: {fileID: 367288370061528548, guid: 0159cdb425f2e4640bbedf7aef4f32f5,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -1252,16 +1262,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 85817726992263707, guid: 0159cdb425f2e4640bbedf7aef4f32f5,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 85817726992263707, guid: 0159cdb425f2e4640bbedf7aef4f32f5,
-        type: 3}
-      propertyPath: m_SizeDelta.x
-      value: -60
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0159cdb425f2e4640bbedf7aef4f32f5, type: 3}
@@ -1891,6 +1891,16 @@ PrefabInstance:
       propertyPath: m_textInfo.lineCount
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 85817726992263707, guid: 0159cdb425f2e4640bbedf7aef4f32f5,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 85817726992263707, guid: 0159cdb425f2e4640bbedf7aef4f32f5,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -60
+      objectReference: {fileID: 0}
     - target: {fileID: 367288370061528548, guid: 0159cdb425f2e4640bbedf7aef4f32f5,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -1945,16 +1955,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 85817726992263707, guid: 0159cdb425f2e4640bbedf7aef4f32f5,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 85817726992263707, guid: 0159cdb425f2e4640bbedf7aef4f32f5,
-        type: 3}
-      propertyPath: m_SizeDelta.x
-      value: -60
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0159cdb425f2e4640bbedf7aef4f32f5, type: 3}
@@ -2154,6 +2154,16 @@ PrefabInstance:
       propertyPath: m_textInfo.lineCount
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 85817726992263707, guid: 0159cdb425f2e4640bbedf7aef4f32f5,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 85817726992263707, guid: 0159cdb425f2e4640bbedf7aef4f32f5,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -60
+      objectReference: {fileID: 0}
     - target: {fileID: 367288370061528548, guid: 0159cdb425f2e4640bbedf7aef4f32f5,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -2208,16 +2218,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 85817726992263707, guid: 0159cdb425f2e4640bbedf7aef4f32f5,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 85817726992263707, guid: 0159cdb425f2e4640bbedf7aef4f32f5,
-        type: 3}
-      propertyPath: m_SizeDelta.x
-      value: -60
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0159cdb425f2e4640bbedf7aef4f32f5, type: 3}
@@ -3376,11 +3376,6 @@ PrefabInstance:
       propertyPath: m_Text
       value: Black
       objectReference: {fileID: 0}
-    - target: {fileID: 8454491330335781919, guid: acff1393b3bcae341ae6aec00709a2c4,
-        type: 3}
-      propertyPath: m_Text
-      value: Blue
-      objectReference: {fileID: 0}
     - target: {fileID: 8454491331186920795, guid: acff1393b3bcae341ae6aec00709a2c4,
         type: 3}
       propertyPath: m_Text
@@ -3435,6 +3430,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_textInfo.pageCount
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8454491330335781919, guid: acff1393b3bcae341ae6aec00709a2c4,
+        type: 3}
+      propertyPath: m_Text
+      value: Blue
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: acff1393b3bcae341ae6aec00709a2c4, type: 3}

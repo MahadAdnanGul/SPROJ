@@ -1332,11 +1332,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bc3691b8f06bde499bc7cb6c7703728, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Boy: {fileID: 3827169131630383259, guid: c6270d294a72b854e98f95f6638284e6, type: 3}
-  Girl: {fileID: 2620662473104383393, guid: fd9bcd485e6c7694bbdf882a3b454e99, type: 3}
-  Position: {x: -2.57, y: -1.43}
-  BoyScale: {x: -0.372, y: 0.372}
-  GirlScale: {x: -0.62, y: 0.62}
+  Boy: {fileID: 1524661856088223884, guid: f381e6a312a47d24da1cb3b077bc613a, type: 3}
+  Girl: {fileID: 3998973334254188747, guid: f21b5b6b4a5e65242ae00cf9cd7a8fa7, type: 3}
+  Position: {x: -2.5, y: 0.9}
+  BoyScale: {x: 0.22, y: 0.22}
+  GirlScale: {x: -0.25, y: 0.25}
 --- !u!114 &1787130461
 MonoBehaviour:
   m_ObjectHideFlags: 0

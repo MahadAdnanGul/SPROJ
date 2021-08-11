@@ -3371,37 +3371,12 @@ PrefabInstance:
     - target: {fileID: 2803336729536592468, guid: acff1393b3bcae341ae6aec00709a2c4,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 550
+      value: 600
       objectReference: {fileID: 0}
     - target: {fileID: 8454491329602871692, guid: acff1393b3bcae341ae6aec00709a2c4,
         type: 3}
       propertyPath: m_IsActive
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2803336729585750845, guid: acff1393b3bcae341ae6aec00709a2c4,
-        type: 3}
-      propertyPath: messages.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2803336729585750845, guid: acff1393b3bcae341ae6aec00709a2c4,
-        type: 3}
-      propertyPath: trigger
-      value: 
-      objectReference: {fileID: 46094284}
-    - target: {fileID: 2803336729585750845, guid: acff1393b3bcae341ae6aec00709a2c4,
-        type: 3}
-      propertyPath: messages.Array.data[0]
-      value: I don't wanna talk about it
-      objectReference: {fileID: 0}
-    - target: {fileID: 2803336729585750845, guid: acff1393b3bcae341ae6aec00709a2c4,
-        type: 3}
-      propertyPath: newTrigger
-      value: 
-      objectReference: {fileID: 1839228015}
-    - target: {fileID: 2803336729585750845, guid: acff1393b3bcae341ae6aec00709a2c4,
-        type: 3}
-      propertyPath: messages.Array.data[1]
-      value: I don't wanna talk about it
       objectReference: {fileID: 0}
     - target: {fileID: 2803336730276565667, guid: acff1393b3bcae341ae6aec00709a2c4,
         type: 3}
@@ -3432,6 +3407,101 @@ PrefabInstance:
         type: 3}
       propertyPath: m_textInfo.wordCount
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2803336729250742965, guid: acff1393b3bcae341ae6aec00709a2c4,
+        type: 3}
+      propertyPath: m_Text
+      value: Say you don't want to talk about it
+      objectReference: {fileID: 0}
+    - target: {fileID: 2803336730987329253, guid: acff1393b3bcae341ae6aec00709a2c4,
+        type: 3}
+      propertyPath: m_Text
+      value: Lie and say you have decided on something
+      objectReference: {fileID: 0}
+    - target: {fileID: 8454491331186920795, guid: acff1393b3bcae341ae6aec00709a2c4,
+        type: 3}
+      propertyPath: m_Text
+      value: Say you haven't decided and ask for help
+      objectReference: {fileID: 0}
+    - target: {fileID: 8454491331186920795, guid: acff1393b3bcae341ae6aec00709a2c4,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 8454491330422563665, guid: acff1393b3bcae341ae6aec00709a2c4,
+        type: 3}
+      propertyPath: m_Text
+      value: Ignore the question
+      objectReference: {fileID: 0}
+    - target: {fileID: 3466306007064747977, guid: acff1393b3bcae341ae6aec00709a2c4,
+        type: 3}
+      propertyPath: m_text
+      value: What will you do?
+      objectReference: {fileID: 0}
+    - target: {fileID: 3466306007064747977, guid: acff1393b3bcae341ae6aec00709a2c4,
+        type: 3}
+      propertyPath: m_havePropertiesChanged
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3466306007064747977, guid: acff1393b3bcae341ae6aec00709a2c4,
+        type: 3}
+      propertyPath: m_isInputParsingRequired
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3466306007064747977, guid: acff1393b3bcae341ae6aec00709a2c4,
+        type: 3}
+      propertyPath: m_firstOverflowCharacterIndex
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3466306007064747977, guid: acff1393b3bcae341ae6aec00709a2c4,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 3466306007064747977, guid: acff1393b3bcae341ae6aec00709a2c4,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3466306007064747977, guid: acff1393b3bcae341ae6aec00709a2c4,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3466306007064747977, guid: acff1393b3bcae341ae6aec00709a2c4,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4463153319314559231, guid: acff1393b3bcae341ae6aec00709a2c4,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2803336729585750845, guid: acff1393b3bcae341ae6aec00709a2c4,
+        type: 3}
+      propertyPath: messages.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2803336729585750845, guid: acff1393b3bcae341ae6aec00709a2c4,
+        type: 3}
+      propertyPath: trigger
+      value: 
+      objectReference: {fileID: 46094284}
+    - target: {fileID: 2803336729585750845, guid: acff1393b3bcae341ae6aec00709a2c4,
+        type: 3}
+      propertyPath: messages.Array.data[0]
+      value: I don't wanna talk about it
+      objectReference: {fileID: 0}
+    - target: {fileID: 2803336729585750845, guid: acff1393b3bcae341ae6aec00709a2c4,
+        type: 3}
+      propertyPath: newTrigger
+      value: 
+      objectReference: {fileID: 1839228015}
+    - target: {fileID: 2803336729585750845, guid: acff1393b3bcae341ae6aec00709a2c4,
+        type: 3}
+      propertyPath: messages.Array.data[1]
+      value: I don't wanna talk about it
       objectReference: {fileID: 0}
     - target: {fileID: 8454491330286621079, guid: acff1393b3bcae341ae6aec00709a2c4,
         type: 3}
@@ -3483,75 +3553,10 @@ PrefabInstance:
       propertyPath: messages.Array.data[1]
       value: '......'
       objectReference: {fileID: 0}
-    - target: {fileID: 2803336729250742965, guid: acff1393b3bcae341ae6aec00709a2c4,
-        type: 3}
-      propertyPath: m_Text
-      value: Say you don't want to talk about it
-      objectReference: {fileID: 0}
-    - target: {fileID: 2803336730987329253, guid: acff1393b3bcae341ae6aec00709a2c4,
-        type: 3}
-      propertyPath: m_Text
-      value: Lie and say you have decided on something
-      objectReference: {fileID: 0}
-    - target: {fileID: 8454491331186920795, guid: acff1393b3bcae341ae6aec00709a2c4,
-        type: 3}
-      propertyPath: m_Text
-      value: Say you haven't decided and ask for help
-      objectReference: {fileID: 0}
-    - target: {fileID: 8454491331186920795, guid: acff1393b3bcae341ae6aec00709a2c4,
-        type: 3}
-      propertyPath: m_FontData.m_FontSize
-      value: 25
-      objectReference: {fileID: 0}
-    - target: {fileID: 8454491330422563665, guid: acff1393b3bcae341ae6aec00709a2c4,
-        type: 3}
-      propertyPath: m_Text
-      value: Ignore the question
-      objectReference: {fileID: 0}
     - target: {fileID: 8296706315045868220, guid: acff1393b3bcae341ae6aec00709a2c4,
         type: 3}
       propertyPath: m_Enabled
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3466306007064747977, guid: acff1393b3bcae341ae6aec00709a2c4,
-        type: 3}
-      propertyPath: m_text
-      value: What will you do?
-      objectReference: {fileID: 0}
-    - target: {fileID: 3466306007064747977, guid: acff1393b3bcae341ae6aec00709a2c4,
-        type: 3}
-      propertyPath: m_havePropertiesChanged
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3466306007064747977, guid: acff1393b3bcae341ae6aec00709a2c4,
-        type: 3}
-      propertyPath: m_isInputParsingRequired
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3466306007064747977, guid: acff1393b3bcae341ae6aec00709a2c4,
-        type: 3}
-      propertyPath: m_firstOverflowCharacterIndex
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3466306007064747977, guid: acff1393b3bcae341ae6aec00709a2c4,
-        type: 3}
-      propertyPath: m_textInfo.characterCount
-      value: 17
-      objectReference: {fileID: 0}
-    - target: {fileID: 3466306007064747977, guid: acff1393b3bcae341ae6aec00709a2c4,
-        type: 3}
-      propertyPath: m_textInfo.spaceCount
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 3466306007064747977, guid: acff1393b3bcae341ae6aec00709a2c4,
-        type: 3}
-      propertyPath: m_textInfo.wordCount
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 3466306007064747977, guid: acff1393b3bcae341ae6aec00709a2c4,
-        type: 3}
-      propertyPath: m_textInfo.lineCount
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: acff1393b3bcae341ae6aec00709a2c4, type: 3}

@@ -9,6 +9,7 @@ public class GirlGetOutfitIllusion : MonoBehaviour
     Image girl_hair;
     [SerializeField] GameObject girl_hair_obj;
     Sprite[] hair_styles;
+    Vector2[] hair_scales_vector;
     Vector2[] hair_styles_vector;
     int HairIndex;
     //Hair
@@ -18,6 +19,7 @@ public class GirlGetOutfitIllusion : MonoBehaviour
     [SerializeField] GameObject girl_shirt_obj;
     Sprite[] shirt_styles;
     Vector2[] shirt_styles_vector;
+    Vector2[] shirt_scales_vector;
     int ShirtIndex;
     //Shirt
 
@@ -41,10 +43,16 @@ public class GirlGetOutfitIllusion : MonoBehaviour
         hair_styles[3] = Resources.Load<Sprite>("Girl/Illusion/Hair/hair-4");
 
         hair_styles_vector = new Vector2[4];
-        hair_styles_vector[0] = new Vector2(7f, 89f);
-        hair_styles_vector[1] = new Vector2(10f, 67f);
-        hair_styles_vector[2] = new Vector2(14f, 65f);
-        hair_styles_vector[3] = new Vector2(4f, 80f);
+        hair_styles_vector[0] = new Vector2(2.9f, 92.145f);
+        hair_styles_vector[1] = new Vector2(6.7173f, 67.2f);
+        hair_styles_vector[2] = new Vector2(11.5f, 60.445f);
+        hair_styles_vector[3] = new Vector2(2.5f, 76.2f);
+
+        hair_scales_vector = new Vector2[4];
+        hair_scales_vector[0] = new Vector2(0.7f, 0.7f);
+        hair_scales_vector[1] = new Vector2(1f, 1f);
+        hair_scales_vector[2] = new Vector2(0.8f, 1.1f);
+        hair_scales_vector[3] = new Vector2(0.9f, 0.8f);
 
         HairIndex = PlayerPrefs.GetInt("GirlHair", 0);
         //Hair
@@ -58,10 +66,16 @@ public class GirlGetOutfitIllusion : MonoBehaviour
         shirt_styles[3] = Resources.Load<Sprite>("Girl/Illusion/Shirt/shirt-4");
 
         shirt_styles_vector = new Vector2[4];
-        shirt_styles_vector[0] = new Vector2(0f, -36f);
-        shirt_styles_vector[1] = new Vector2(0f, -36f);
-        shirt_styles_vector[2] = new Vector2(0f, -36f);
-        shirt_styles_vector[3] = new Vector2(0f, -28f);
+        shirt_styles_vector[0] = new Vector2(0f, -39f);
+        shirt_styles_vector[1] = new Vector2(0f, -39f);
+        shirt_styles_vector[2] = new Vector2(0f, -39f);
+        shirt_styles_vector[3] = new Vector2(0f, -30.9f);
+
+        shirt_scales_vector = new Vector2[4];
+        shirt_scales_vector[0] = new Vector2(0.9f, 1.1f);
+        shirt_scales_vector[1] = new Vector2(0.9f, 1.1f);
+        shirt_scales_vector[2] = new Vector2(0.9f, 1.1f);
+        shirt_scales_vector[3] = new Vector2(0.9f, 1.1f);
 
         ShirtIndex = PlayerPrefs.GetInt("GirlShirt", 0);
         //Shirt
@@ -90,9 +104,11 @@ public class GirlGetOutfitIllusion : MonoBehaviour
         //outfitload
         girl_hair.sprite = hair_styles[HairIndex];
         girl_hair_obj.transform.localPosition = hair_styles_vector[HairIndex];
+        girl_hair_obj.transform.localScale = hair_scales_vector[HairIndex];
 
         girl_shirt.sprite = shirt_styles[ShirtIndex];
         girl_shirt_obj.transform.localPosition = shirt_styles_vector[ShirtIndex];
+        girl_shirt_obj.transform.localScale = shirt_scales_vector[ShirtIndex];
 
 
 

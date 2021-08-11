@@ -778,7 +778,7 @@ PrefabInstance:
     - target: {fileID: 3898754116049895602, guid: 008d41327f056c34881f47d3027201ae,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 280
+      value: 250.2
       objectReference: {fileID: 0}
     - target: {fileID: 3898754116049895602, guid: 008d41327f056c34881f47d3027201ae,
         type: 3}
@@ -1191,7 +1191,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 8657565581623104d8a6679a60eed9be, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 229e0bd612b948243aed5b281e8ae152, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1502,12 +1502,12 @@ PrefabInstance:
     - target: {fileID: 3898754116049895602, guid: 008d41327f056c34881f47d3027201ae,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 1000
+      value: 987.8
       objectReference: {fileID: 0}
     - target: {fileID: 3898754116049895602, guid: 008d41327f056c34881f47d3027201ae,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 239
+      value: 194.6
       objectReference: {fileID: 0}
     - target: {fileID: 3898754116049895602, guid: 008d41327f056c34881f47d3027201ae,
         type: 3}
@@ -1785,7 +1785,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Boy: {fileID: 3827169131630383259, guid: c6270d294a72b854e98f95f6638284e6, type: 3}
   Girl: {fileID: 2620662473104383393, guid: fd9bcd485e6c7694bbdf882a3b454e99, type: 3}
-  Position: {x: 2.31, y: 0.5}
+  Position: {x: 2.4, y: 0.55}
   BoyScale: {x: 0.222, y: 0.222}
   GirlScale: {x: 0.37, y: 0.37}
 --- !u!1 &1654781630
@@ -1929,12 +1929,12 @@ PrefabInstance:
     - target: {fileID: 3898754116049895602, guid: 008d41327f056c34881f47d3027201ae,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -400
+      value: -291
       objectReference: {fileID: 0}
     - target: {fileID: 3898754116049895602, guid: 008d41327f056c34881f47d3027201ae,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 381
+      value: 359
       objectReference: {fileID: 0}
     - target: {fileID: 3898754116049895602, guid: 008d41327f056c34881f47d3027201ae,
         type: 3}

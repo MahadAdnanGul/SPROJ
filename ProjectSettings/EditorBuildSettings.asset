@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/AnimatedScenes/SplashScreen.unity
+    guid: b6bbb58e7b62efd499f1cac2d887b9b8
+  - enabled: 1
     path: Assets/Scenes/Charecter_select.unity
     guid: 971e10297c7572445ad976910b979783
   - enabled: 1
@@ -18,11 +21,11 @@ EditorBuildSettings:
     path: Assets/Scenes/CustomizeBoy.unity
     guid: 6392b516480f418468e576e8eb8f4e63
   - enabled: 1
-    path: Assets/Scenes/Start.unity
-    guid: 8ae47fcbc9a34d44cb4b3560829a39d9
-  - enabled: 1
     path: Assets/Scenes/PreText.unity
     guid: e4deb58ab60b13e4a897f5fa983defee
+  - enabled: 1
+    path: Assets/Scenes/Start.unity
+    guid: 8ae47fcbc9a34d44cb4b3560829a39d9
   - enabled: 1
     path: Assets/Scenes/FreshmenYear/Chapter_1_Oweek_2.unity
     guid: c6e6ece6f1f53c1458abc947761cec5f
@@ -180,6 +183,12 @@ EditorBuildSettings:
     path: Assets/Scenes/SophYear/Chapter_3_Society_Lead.unity
     guid: ad6b6f8f81fa522439dbed9f1c549d73
   - enabled: 1
+    path: Assets/Scenes/SophYear/Chapter_4_Exam_0.unity
+    guid: c99e44a26e761b44cbe59772c3014417
+  - enabled: 1
+    path: Assets/Scenes/SophYear/Chapter_4_Exam_1.unity
+    guid: bc7d1a5b5dc6a904ab74fcc6b0693818
+  - enabled: 1
     path: Assets/Scenes/JuniorYear/AChapterPreTextJunior.unity
     guid: 8cfa7cd76b7b5cc4497c64abff802866
   - enabled: 1
@@ -273,24 +282,54 @@ EditorBuildSettings:
     path: Assets/Scenes/Senior Year/Chapter_3_ColorDay_2.unity
     guid: a4a33a2c298aad444bab25367f721b6b
   - enabled: 1
-    path: Assets/Scenes/zChapter_4_khoka_1.unity
-    guid: 47d19349f232b2240be22b1ce65ffb59
+    path: Assets/Scenes/Senior Year/Chapter_4_Farewell_0.unity
+    guid: 5f0b574c781fadf498b5faf3b5b9d773
   - enabled: 1
-    path: Assets/Scenes/zChapter_4_khoka_2(trans).unity
-    guid: fe34e1e3674c68d44916e6fd7cd875e7
+    path: Assets/Scenes/Senior Year/Chapter_4_Farewell_1.unity
+    guid: 56d4cb226546c554aaa79f6f86962b0f
   - enabled: 1
-    path: Assets/Scenes/zChapter_4_khoka_3.unity
-    guid: 9cae3eaad756f854e9b11b0e2081e2c6
+    path: Assets/Scenes/Senior Year/Chapter_4_Farewell_2.unity
+    guid: 7f376abcc36561c45a75b5034fe155bb
   - enabled: 1
-    path: Assets/Scenes/zChapter_4_khoka_4.unity
-    guid: 25f164ff400562c4585afad0064de640
+    path: Assets/Scenes/Senior Year/Chapter_4_Farewell_3.unity
+    guid: a728a50ad80ec7e40858474687c4f45f
   - enabled: 1
-    path: Assets/Scenes/zChapter_4_Khoka_5(trans).unity
-    guid: 49ac7f6f784ac774a828735bbf2f737b
+    path: Assets/Scenes/Senior Year/Chapter_4_Farewell_4.unity
+    guid: 37bd32d0e847a1e4bac73e6d27d21b33
   - enabled: 1
-    path: Assets/Scenes/zChapter_4_khoka_6.unity
-    guid: e01d74c5322dbbc4f90c9ac4e8191644
+    path: Assets/Scenes/Senior Year/Chapter_4_Farewell_5.unity
+    guid: 92ec9f8e3efdb0540ba68d0495236c13
+  - enabled: 1
+    path: Assets/Scenes/Senior Year/Chapter_4_Farewell_6.unity
+    guid: 303e6c932bd94e94da5880b3b94a7f24
+  - enabled: 1
+    path: Assets/Scenes/Senior Year/Chapter_4_Farewell_6.5.unity
+    guid: 88ac2bae03de6164b8219b67ced55238
+  - enabled: 1
+    path: Assets/Scenes/Senior Year/Chapter_4_Farewell_7.unity
+    guid: a6c05ccbdd62d264d93df805df6ecbdc
+  - enabled: 1
+    path: Assets/Scenes/Senior Year/Chapter_5_Convocation_0.unity
+    guid: 6cdedf3814f51e64b890527fe0c8215f
+  - enabled: 1
+    path: Assets/Scenes/Senior Year/Chapter_5_Convocation_1.unity
+    guid: f0894970a67d4de4fbc203a683e4bd26
+  - enabled: 1
+    path: Assets/Scenes/Senior Year/Chapter_5_Convocation_2.unity
+    guid: 627c37dbdb6c96e4e910c5f747266e3e
+  - enabled: 1
+    path: Assets/Scenes/Senior Year/Chapter_5_Convocation_3.unity
+    guid: f0e53c3557c5cb14f8bd7bbcfbcc2f87
+  - enabled: 1
+    path: Assets/Scenes/Senior Year/Chapter_5_Convocation_4.unity
+    guid: 5a3e5ccba2dbb1d43a4251f2d2d24bda
+  - enabled: 1
+    path: Assets/Scenes/Senior Year/Chapter_5_Convocation_5.unity
+    guid: 1323e144704349b49a334bef26d35a35
   - enabled: 1
     path: Assets/Scenes/charecterCustomize.unity
     guid: d1bb2162fd2fe0c4dbc9c3fbca8330e2
+  - enabled: 1
+    path: Assets/Scenes/AnimatedScenes/LevelSelect.unity
+    guid: 2e858b7a43b388340bc8cfd498357456
   m_configObjects: {}

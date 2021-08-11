@@ -1765,6 +1765,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: MainDecision (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6136809020746782947, guid: a0e038f84b5268441bb6fc2aa365d58f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6136809020746782951, guid: a0e038f84b5268441bb6fc2aa365d58f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1890,11 +1895,6 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
       value: Chapter_3_Society_Lead
       objectReference: {fileID: 0}
-    - target: {fileID: 6136809021625523480, guid: a0e038f84b5268441bb6fc2aa365d58f,
-        type: 3}
-      propertyPath: m_Text
-      value: Say yes!
-      objectReference: {fileID: 0}
     - target: {fileID: 6136809019544403376, guid: a0e038f84b5268441bb6fc2aa365d58f,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
@@ -1915,11 +1915,6 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
       value: Chapter_3_Society_Decline
       objectReference: {fileID: 0}
-    - target: {fileID: 6136809019797100399, guid: a0e038f84b5268441bb6fc2aa365d58f,
-        type: 3}
-      propertyPath: m_Text
-      value: Say no
-      objectReference: {fileID: 0}
     - target: {fileID: 6136809020910975284, guid: a0e038f84b5268441bb6fc2aa365d58f,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
@@ -1938,7 +1933,27 @@ PrefabInstance:
     - target: {fileID: 6136809020910975284, guid: a0e038f84b5268441bb6fc2aa365d58f,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
-      value: AChapterPreTextJunior
+      value: Chapter_4_Exam_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6136809021625523483, guid: a0e038f84b5268441bb6fc2aa365d58f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -1.6000061
+      objectReference: {fileID: 0}
+    - target: {fileID: 6136809021625523483, guid: a0e038f84b5268441bb6fc2aa365d58f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 2.5999985
+      objectReference: {fileID: 0}
+    - target: {fileID: 6136809019797100399, guid: a0e038f84b5268441bb6fc2aa365d58f,
+        type: 3}
+      propertyPath: m_Text
+      value: Say no
+      objectReference: {fileID: 0}
+    - target: {fileID: 6136809021625523480, guid: a0e038f84b5268441bb6fc2aa365d58f,
+        type: 3}
+      propertyPath: m_Text
+      value: Say yes!
       objectReference: {fileID: 0}
     - target: {fileID: 6136809020237047981, guid: a0e038f84b5268441bb6fc2aa365d58f,
         type: 3}

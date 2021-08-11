@@ -12,7 +12,7 @@ public class GameManager : MonoBehaviour
     public Slider levelBar;
     public TextMeshProUGUI levelText;
     private int currentLevel;
-    private int[] sliderVals = { 10, 10, 10, 10, 10, 10 };
+    private int[] sliderVals = { 33, 10, 10, 10, 10, 10 };
     public TextMeshProUGUI chapterText;
     public bool lunch_with_oweekFriend;
     public bool lunch_with_friends;
@@ -64,8 +64,10 @@ public class GameManager : MonoBehaviour
 
     public void IncreaseLevelProgress()
     {
+        PlayerPrefs.SetInt("Scene", SceneManager.GetActiveScene().buildIndex);
         Debug.Log("Increase!");
         levelBar.value++;
+        PlayerPrefs.SetFloat("Level", levelBar.value);
         if(levelBar.value>=levelBar.maxValue)
         {
             LevelUp();
@@ -109,21 +111,94 @@ public class GameManager : MonoBehaviour
     }
     public void StartGame()
     {
+        
         topHud.SetActive(true);
         //objButton.SetActive(true);
-        SceneManager.LoadScene("Start");
+        SceneManager.LoadScene("PreText");
+    }
+    public void DeletePrefs()
+    {
+        PlayerPrefs.DeleteAll();
+    }
+    public void Resume()
+    {
+        topHud.SetActive(true);
+        SceneManager.LoadScene(PlayerPrefs.GetInt("Scene",0));
+        levelBar.value = PlayerPrefs.GetFloat("Level", 0);
+    }
+    public void LEVEL_SELECT()
+    {
+        SceneManager.LoadScene("LevelSelect");
+    }
+    public void SophYear()
+    {
+        topHud.SetActive(true);
+        SceneManager.LoadScene(39);
+        levelBar.value = 9f;
+    }
+    public void JuniorYear()
+    {
+        topHud.SetActive(true);
+        SceneManager.LoadScene(61);
+        levelBar.value = 15f;
+    }
+    public void SeniorYear()
+    {
+        topHud.SetActive(true);
+        SceneManager.LoadScene(84);
+        levelBar.value = 23f;
     }
     public void UpdateChapter()
     {
-        if (SceneManager.GetActiveScene().buildIndex < 15)
+        
+        if (SceneManager.GetActiveScene().buildIndex < 20)
             chapterText.text = "Chapter 1";
-        else if (SceneManager.GetActiveScene().buildIndex < 20)
+        else if (SceneManager.GetActiveScene().buildIndex < 25)
             chapterText.text = "Chapter 2";
-        else if (SceneManager.GetActiveScene().buildIndex < 26)
+        else if (SceneManager.GetActiveScene().buildIndex < 31)
             chapterText.text = "Chapter 3";
-        else if (SceneManager.GetActiveScene().buildIndex < 32)
+        else if (SceneManager.GetActiveScene().buildIndex < 37)
             chapterText.text = "Chapter 4";
-        else if (SceneManager.GetActiveScene().buildIndex < 34)
+        else if (SceneManager.GetActiveScene().buildIndex < 39)
             chapterText.text = "Chapter 5";
+        else if (SceneManager.GetActiveScene().buildIndex < 49)
+        {
+            chapterText.text = "Chapter 1";
+            PlayerPrefs.SetString("Soph", "True");
+        }
+        else if (SceneManager.GetActiveScene().buildIndex < 54)
+            chapterText.text = "Chapter 2";
+        else if (SceneManager.GetActiveScene().buildIndex < 59)
+            chapterText.text = "Chapter 3";
+        else if (SceneManager.GetActiveScene().buildIndex < 61)
+            chapterText.text = "Chapter 4";
+        else if (SceneManager.GetActiveScene().buildIndex < 67)
+        {
+            chapterText.text = "Chapter 1";
+            PlayerPrefs.SetString("Junior", "True");
+        }
+        else if (SceneManager.GetActiveScene().buildIndex < 70)
+            chapterText.text = "Chapter 2";
+        else if (SceneManager.GetActiveScene().buildIndex < 80)
+            chapterText.text = "Chapter 3";
+        else if (SceneManager.GetActiveScene().buildIndex < 82)
+            chapterText.text = "Chapter 4";
+        else if (SceneManager.GetActiveScene().buildIndex < 84)
+            chapterText.text = "Chapter 5";
+        else if (SceneManager.GetActiveScene().buildIndex < 87)
+        {
+            chapterText.text = "Chapter 1";
+            PlayerPrefs.SetString("Senior", "True");
+        }
+        else if (SceneManager.GetActiveScene().buildIndex < 89)
+            chapterText.text = "Chapter 2";
+        else if (SceneManager.GetActiveScene().buildIndex < 92)
+            chapterText.text = "Chapter 3";
+        else if (SceneManager.GetActiveScene().buildIndex < 101)
+            chapterText.text = "Chapter 4";
+        else if (SceneManager.GetActiveScene().buildIndex >= 101)
+            chapterText.text = "Chapter 5";
+
+        PlayerPrefs.SetString("Chapter", chapterText.text);
     }
 }

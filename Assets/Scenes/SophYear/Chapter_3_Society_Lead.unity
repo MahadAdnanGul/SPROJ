@@ -496,7 +496,7 @@ PrefabInstance:
     - target: {fileID: 367288370061528548, guid: 0159cdb425f2e4640bbedf7aef4f32f5,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: AChapterPreTextJunior
+      value: Chapter_4_Exam_0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0159cdb425f2e4640bbedf7aef4f32f5, type: 3}
@@ -697,8 +697,9 @@ MonoBehaviour:
   camera_max: 2.2
   camera_min: -2.2
   camera_current: 0
-  dynamicObj: []
-  moveFactor: 
+  dynamicObj:
+  - {fileID: 0}
+  moveFactor: 0a000000
 --- !u!114 &553791040
 MonoBehaviour:
   m_ObjectHideFlags: 0

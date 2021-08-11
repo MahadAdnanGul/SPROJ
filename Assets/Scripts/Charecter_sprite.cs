@@ -18,7 +18,7 @@ public class Charecter_sprite : MonoBehaviour
    
     private void Awake()
     {
-        if(SceneManager.GetActiveScene().buildIndex==0)
+        if(SceneManager.GetActiveScene().buildIndex==1)
         {
 
         }

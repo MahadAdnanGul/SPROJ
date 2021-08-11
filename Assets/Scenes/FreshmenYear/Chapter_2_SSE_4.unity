@@ -788,11 +788,6 @@ PrefabInstance:
       propertyPath: m_Text
       value: It's not a big deal
       objectReference: {fileID: 0}
-    - target: {fileID: 7824319522184488843, guid: 98d08b0cfee84c748b94f864fac38f05,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 3239022535096269990, guid: 98d08b0cfee84c748b94f864fac38f05,
         type: 3}
       propertyPath: m_havePropertiesChanged
@@ -808,6 +803,11 @@ PrefabInstance:
       propertyPath: trigger
       value: 
       objectReference: {fileID: 1714165287}
+    - target: {fileID: 7824319522184488843, guid: 98d08b0cfee84c748b94f864fac38f05,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7824319523367363772, guid: 98d08b0cfee84c748b94f864fac38f05,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size

@@ -467,7 +467,7 @@ MonoBehaviour:
   camera_current: 0
   dynamicObj:
   - {fileID: 1644118287}
-  - {fileID: 1257845039}
+  - {fileID: 1644118287}
   - {fileID: 615615755}
   - {fileID: 714730031}
   moveFactor: 100000000c0000000c0000000c000000
@@ -644,10 +644,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bc3691b8f06bde499bc7cb6c7703728, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Boy: {fileID: 601494375570952842, guid: ecea353a843627b43bc67c043097fe6f, type: 3}
-  Girl: {fileID: 5918939373668114799, guid: 4730705b4077e844a9a0aea9a81d9df8, type: 3}
+  Boy: {fileID: 3779212556260143975, guid: d9b0e34c8bd6d084eafff2167849ef00, type: 3}
+  Girl: {fileID: 8024711523138622740, guid: 08380488672495c46ba258378adf636b, type: 3}
   Position: {x: 0.36, y: -10.49}
-  BoyScale: {x: 1.8, y: 1.8}
+  BoyScale: {x: 1.6, y: 1.6}
   GirlScale: {x: 3, y: 3}
 --- !u!1 &538464439
 GameObject:
@@ -791,7 +791,6 @@ Transform:
   - {fileID: 1361690592}
   - {fileID: 714730032}
   - {fileID: 615615756}
-  - {fileID: 1257845040}
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1349,85 +1348,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1257845039
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1257845040}
-  - component: {fileID: 1257845041}
-  m_Layer: 0
-  m_Name: junior year-chapt 3 headphones
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1257845040
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1257845039}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -86.72, y: -22.01, z: 1}
-  m_LocalScale: {x: 0.17, y: 0.18, z: 1}
-  m_Children: []
-  m_Father: {fileID: 562530956}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &1257845041
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1257845039}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 2036216523
-  m_SortingLayer: 11
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7a5eec1a55260bc4393ab0bf6496a10c, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 26.2, y: 25.89}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &1361690591
 GameObject:
   m_ObjectHideFlags: 0

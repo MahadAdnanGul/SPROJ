@@ -23,6 +23,10 @@ public class SetName : MonoBehaviour
     {
         PlayerPrefs.SetString("Name", nameText.text);
     }
+    public void Title()
+    {
+        PlayerPrefs.SetString("Title", nameText.text);
+    }
     public void StartGame()
     {
         if (PlayerPrefs.GetString("boy", "X")=="True") 
