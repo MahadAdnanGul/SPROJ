@@ -29,6 +29,18 @@ public class Exit : MonoBehaviour
 
 
     }
+    public void Del()
+    {
+        FindObjectOfType<GameManager>().DeletePrefs();
+    }
+    public void Res()
+    {
+        FindObjectOfType<GameManager>().Resume();
+    }
+    public void Level()
+    {
+        FindObjectOfType<GameManager>().LEVEL_SELECT();
+    }
     public void LoadCustom(string name)
     {
 

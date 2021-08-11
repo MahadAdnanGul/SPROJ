@@ -1098,7 +1098,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bc3691b8f06bde499bc7cb6c7703728, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Boy: {fileID: 0}
+  Boy: {fileID: 5004008338619138532, guid: 440105744def2004a9cd3bc37b241433, type: 3}
   Girl: {fileID: 9161563474244077769, guid: f36e9f102a25ab8489ed0bba7c7e78f6, type: 3}
   Position: {x: -1, y: 1.16}
   BoyScale: {x: 0.25, y: 0.25}

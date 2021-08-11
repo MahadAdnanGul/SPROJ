@@ -1693,7 +1693,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_text
       value: You and your friends are having a great time. You take more pictures,
-        eat some food and and catch up with people you've met through out the years.
+        eat some food and catch up with people you've met through out the years.
       objectReference: {fileID: 0}
     - target: {fileID: 4184266214071211096, guid: 0159cdb425f2e4640bbedf7aef4f32f5,
         type: 3}

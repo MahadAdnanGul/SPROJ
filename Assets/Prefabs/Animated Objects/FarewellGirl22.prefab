@@ -225,7 +225,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: acd038b10f2ea03419742358416e9a5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  girl_hair_obj: {fileID: 5690544885649094948}
+  girl_hair_obj: {fileID: 5690544884347040958}
   girl_shirt_obj: {fileID: 5690544885649094948}
   Hand: {fileID: 5690544883879617048}
 --- !u!1 &5690544884347040958

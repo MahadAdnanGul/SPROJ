@@ -1723,6 +1723,31 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_BoolArgument
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2803336729250742965, guid: acff1393b3bcae341ae6aec00709a2c4,
+        type: 3}
+      propertyPath: m_Text
+      value: 'Excited, Proud, Satisfied, Happy '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2803336730987329253, guid: acff1393b3bcae341ae6aec00709a2c4,
+        type: 3}
+      propertyPath: m_Text
+      value: Troubled, Unhappy
+      objectReference: {fileID: 0}
+    - target: {fileID: 8454491330335781919, guid: acff1393b3bcae341ae6aec00709a2c4,
+        type: 3}
+      propertyPath: m_Text
+      value: Uncomfortable, Horrified, Nauseated
+      objectReference: {fileID: 0}
+    - target: {fileID: 8454491331186920795, guid: acff1393b3bcae341ae6aec00709a2c4,
+        type: 3}
+      propertyPath: m_Text
+      value: Frustrated, Annoyed
+      objectReference: {fileID: 0}
+    - target: {fileID: 8454491330422563665, guid: acff1393b3bcae341ae6aec00709a2c4,
+        type: 3}
+      propertyPath: m_Text
+      value: Terrified, Worried, Nervous, Anxious, Panicked
+      objectReference: {fileID: 0}
     - target: {fileID: 2803336730276565667, guid: acff1393b3bcae341ae6aec00709a2c4,
         type: 3}
       propertyPath: m_havePropertiesChanged

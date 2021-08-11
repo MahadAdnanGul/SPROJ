@@ -1661,6 +1661,31 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_BoolArgument
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2803336729250742965, guid: acff1393b3bcae341ae6aec00709a2c4,
+        type: 3}
+      propertyPath: m_Text
+      value: 'Happy, Excited, Relieved '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2803336730987329253, guid: acff1393b3bcae341ae6aec00709a2c4,
+        type: 3}
+      propertyPath: m_Text
+      value: Hopeless, Unhappy, Lost
+      objectReference: {fileID: 0}
+    - target: {fileID: 8454491330335781919, guid: acff1393b3bcae341ae6aec00709a2c4,
+        type: 3}
+      propertyPath: m_Text
+      value: 'Uncomfortable, Offended '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8454491331186920795, guid: acff1393b3bcae341ae6aec00709a2c4,
+        type: 3}
+      propertyPath: m_Text
+      value: Annoyed, Frustrated
+      objectReference: {fileID: 0}
+    - target: {fileID: 8454491330422563665, guid: acff1393b3bcae341ae6aec00709a2c4,
+        type: 3}
+      propertyPath: m_Text
+      value: Worried, Anxious, Nervous, Panicked, Stressed
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: acff1393b3bcae341ae6aec00709a2c4, type: 3}
 --- !u!1 &1062823374 stripped
@@ -2872,6 +2897,11 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[4].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.UI.Text, UnityEngine.UI
       objectReference: {fileID: 0}
+    - target: {fileID: 4846814461999602281, guid: 2f360a6819b2e1a45b7cdf6e5179eec5,
+        type: 3}
+      propertyPath: resetTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4846814460716269489, guid: 2f360a6819b2e1a45b7cdf6e5179eec5,
         type: 3}
       propertyPath: m_Text
@@ -2881,11 +2911,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Text
       value: Go with friends
-      objectReference: {fileID: 0}
-    - target: {fileID: 4846814461999602281, guid: 2f360a6819b2e1a45b7cdf6e5179eec5,
-        type: 3}
-      propertyPath: resetTrigger
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3051118725216024731, guid: 2f360a6819b2e1a45b7cdf6e5179eec5,
         type: 3}

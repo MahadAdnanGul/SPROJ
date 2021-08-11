@@ -439,8 +439,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 741389888}
-  - component: {fileID: 741389887}
   - component: {fileID: 741389889}
+  - component: {fileID: 741389887}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -457,7 +457,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 741389886}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 07d5fa9c767f4424dacd769b13173b25, type: 3}
+  m_Script: {fileID: 11500000, guid: ce8134a1103038a44ae3bdf74ebb9bc2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   time: 1

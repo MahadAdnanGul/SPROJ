@@ -69,6 +69,7 @@ public class BoyGetOutfit : MonoBehaviour
 
 
         //Shirt
+        
         shirt_styles = new Sprite[5];
         shirt_styles[0] = Resources.Load<Sprite>("Boy/SideProfile/Shirt/shirt-1");
         shirt_styles[1] = Resources.Load<Sprite>("Boy/SideProfile/Shirt/shirt-2");
@@ -135,9 +136,13 @@ public class BoyGetOutfit : MonoBehaviour
     {
         //init   
         girl_hair = girl_hair_obj.GetComponent<SpriteRenderer>();
-        girl_shirt = girl_shirt_obj.GetComponent<SpriteRenderer>();
-        girl_trouser = girl_trouser_obj.GetComponent<SpriteRenderer>();
-        girl_shoes = girl_shoes_obj.GetComponent<SpriteRenderer>();
+        if(girl_shirt_obj!=null)
+        {
+            girl_shirt = girl_shirt_obj.GetComponent<SpriteRenderer>();
+            girl_trouser = girl_trouser_obj.GetComponent<SpriteRenderer>();
+            girl_shoes = girl_shoes_obj.GetComponent<SpriteRenderer>();
+        }
+        
         skin = gameObject.GetComponent<SpriteRenderer>();
         //init
 
@@ -145,14 +150,18 @@ public class BoyGetOutfit : MonoBehaviour
         girl_hair.sprite = hair_styles[HairIndex];
         girl_hair_obj.transform.localPosition = hair_styles_vector[HairIndex];
 
-        girl_shirt.sprite = shirt_styles[ShirtIndex];
-        girl_shirt_obj.transform.localPosition = shirt_styles_vector[ShirtIndex];
+        if (girl_shirt_obj != null)
+        {
+            girl_shirt.sprite = shirt_styles[ShirtIndex];
+            girl_shirt_obj.transform.localPosition = shirt_styles_vector[ShirtIndex];
 
-        girl_trouser.sprite = trouser_styles[TrouserIndex];
-        girl_trouser_obj.transform.localPosition = trouser_styles_vector[TrouserIndex];
+            girl_trouser.sprite = trouser_styles[TrouserIndex];
+            girl_trouser_obj.transform.localPosition = trouser_styles_vector[TrouserIndex];
 
-        girl_shoes.sprite = shoes_styles[ShoesIndex];
-        girl_shoes_obj.transform.localPosition = shoes_styles_vector[ShoesIndex];
+            girl_shoes.sprite = shoes_styles[ShoesIndex];
+            girl_shoes_obj.transform.localPosition = shoes_styles_vector[ShoesIndex];
+        }
+        
 
         skin.color = new Color(colors[SkinIndex].x / 255f, colors[SkinIndex].y / 255f, colors[SkinIndex].z / 255f);
 

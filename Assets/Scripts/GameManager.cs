@@ -151,52 +151,52 @@ public class GameManager : MonoBehaviour
     public void UpdateChapter()
     {
         
-        if (SceneManager.GetActiveScene().buildIndex < 20)
+        if (SceneManager.GetActiveScene().buildIndex < 21)
             chapterText.text = "Chapter 1";
-        else if (SceneManager.GetActiveScene().buildIndex < 25)
+        else if (SceneManager.GetActiveScene().buildIndex < 26)
             chapterText.text = "Chapter 2";
-        else if (SceneManager.GetActiveScene().buildIndex < 31)
+        else if (SceneManager.GetActiveScene().buildIndex < 32)
             chapterText.text = "Chapter 3";
-        else if (SceneManager.GetActiveScene().buildIndex < 37)
+        else if (SceneManager.GetActiveScene().buildIndex < 38)
             chapterText.text = "Chapter 4";
-        else if (SceneManager.GetActiveScene().buildIndex < 39)
+        else if (SceneManager.GetActiveScene().buildIndex < 40)
             chapterText.text = "Chapter 5";
-        else if (SceneManager.GetActiveScene().buildIndex < 49)
+        else if (SceneManager.GetActiveScene().buildIndex < 50)
         {
             chapterText.text = "Chapter 1";
             PlayerPrefs.SetString("Soph", "True");
         }
-        else if (SceneManager.GetActiveScene().buildIndex < 54)
+        else if (SceneManager.GetActiveScene().buildIndex < 55)
             chapterText.text = "Chapter 2";
-        else if (SceneManager.GetActiveScene().buildIndex < 59)
+        else if (SceneManager.GetActiveScene().buildIndex < 60)
             chapterText.text = "Chapter 3";
-        else if (SceneManager.GetActiveScene().buildIndex < 61)
+        else if (SceneManager.GetActiveScene().buildIndex < 62)
             chapterText.text = "Chapter 4";
-        else if (SceneManager.GetActiveScene().buildIndex < 67)
+        else if (SceneManager.GetActiveScene().buildIndex < 68)
         {
             chapterText.text = "Chapter 1";
             PlayerPrefs.SetString("Junior", "True");
         }
-        else if (SceneManager.GetActiveScene().buildIndex < 70)
+        else if (SceneManager.GetActiveScene().buildIndex < 71)
             chapterText.text = "Chapter 2";
-        else if (SceneManager.GetActiveScene().buildIndex < 80)
+        else if (SceneManager.GetActiveScene().buildIndex < 81)
             chapterText.text = "Chapter 3";
-        else if (SceneManager.GetActiveScene().buildIndex < 82)
+        else if (SceneManager.GetActiveScene().buildIndex < 83)
             chapterText.text = "Chapter 4";
-        else if (SceneManager.GetActiveScene().buildIndex < 84)
+        else if (SceneManager.GetActiveScene().buildIndex < 85)
             chapterText.text = "Chapter 5";
-        else if (SceneManager.GetActiveScene().buildIndex < 87)
+        else if (SceneManager.GetActiveScene().buildIndex < 88)
         {
             chapterText.text = "Chapter 1";
             PlayerPrefs.SetString("Senior", "True");
         }
-        else if (SceneManager.GetActiveScene().buildIndex < 89)
+        else if (SceneManager.GetActiveScene().buildIndex < 90)
             chapterText.text = "Chapter 2";
-        else if (SceneManager.GetActiveScene().buildIndex < 92)
+        else if (SceneManager.GetActiveScene().buildIndex < 93)
             chapterText.text = "Chapter 3";
-        else if (SceneManager.GetActiveScene().buildIndex < 101)
+        else if (SceneManager.GetActiveScene().buildIndex < 102)
             chapterText.text = "Chapter 4";
-        else if (SceneManager.GetActiveScene().buildIndex >= 101)
+        else if (SceneManager.GetActiveScene().buildIndex >= 102)
             chapterText.text = "Chapter 5";
 
         PlayerPrefs.SetString("Chapter", chapterText.text);

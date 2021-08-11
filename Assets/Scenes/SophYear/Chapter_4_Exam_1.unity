@@ -584,6 +584,16 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: use_over_generalization
       objectReference: {fileID: 0}
+    - target: {fileID: 7824319523033891148, guid: 98d08b0cfee84c748b94f864fac38f05,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.87999725
+      objectReference: {fileID: 0}
+    - target: {fileID: 7824319523033891148, guid: 98d08b0cfee84c748b94f864fac38f05,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.79999924
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 98d08b0cfee84c748b94f864fac38f05, type: 3}
 --- !u!1 &3798781 stripped
@@ -1374,6 +1384,31 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_BoolArgument
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2803336729250742965, guid: acff1393b3bcae341ae6aec00709a2c4,
+        type: 3}
+      propertyPath: m_Text
+      value: Content, Excited, Satisfied
+      objectReference: {fileID: 0}
+    - target: {fileID: 2803336730987329253, guid: acff1393b3bcae341ae6aec00709a2c4,
+        type: 3}
+      propertyPath: m_Text
+      value: Hopeless, Disappointed, Lost
+      objectReference: {fileID: 0}
+    - target: {fileID: 8454491330335781919, guid: acff1393b3bcae341ae6aec00709a2c4,
+        type: 3}
+      propertyPath: m_Text
+      value: 'Uncomfortable '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8454491331186920795, guid: acff1393b3bcae341ae6aec00709a2c4,
+        type: 3}
+      propertyPath: m_Text
+      value: Frustrated
+      objectReference: {fileID: 0}
+    - target: {fileID: 8454491330422563665, guid: acff1393b3bcae341ae6aec00709a2c4,
+        type: 3}
+      propertyPath: m_Text
+      value: Worried, Anxious, Nervous, Panicked, Stressed
+      objectReference: {fileID: 0}
     - target: {fileID: 2803336730276565667, guid: acff1393b3bcae341ae6aec00709a2c4,
         type: 3}
       propertyPath: m_havePropertiesChanged
@@ -1596,6 +1631,36 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 2.5999985
       objectReference: {fileID: 0}
+    - target: {fileID: 6136809020233514749, guid: a0e038f84b5268441bb6fc2aa365d58f,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 6136809020233514749, guid: a0e038f84b5268441bb6fc2aa365d58f,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 130
+      objectReference: {fileID: 0}
+    - target: {fileID: 6136809019544403379, guid: a0e038f84b5268441bb6fc2aa365d58f,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 6136809019544403379, guid: a0e038f84b5268441bb6fc2aa365d58f,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 130
+      objectReference: {fileID: 0}
+    - target: {fileID: 6136809020910975287, guid: a0e038f84b5268441bb6fc2aa365d58f,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 6136809020910975287, guid: a0e038f84b5268441bb6fc2aa365d58f,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 130
+      objectReference: {fileID: 0}
     - target: {fileID: 6136809019797100399, guid: a0e038f84b5268441bb6fc2aa365d58f,
         type: 3}
       propertyPath: m_Text
@@ -1610,6 +1675,31 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Text
       value: I've already studied for both, just have to revise now
+      objectReference: {fileID: 0}
+    - target: {fileID: 7558348447783346323, guid: a0e038f84b5268441bb6fc2aa365d58f,
+        type: 3}
+      propertyPath: m_text
+      value: What is your current situation?
+      objectReference: {fileID: 0}
+    - target: {fileID: 7558348447783346323, guid: a0e038f84b5268441bb6fc2aa365d58f,
+        type: 3}
+      propertyPath: m_havePropertiesChanged
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7558348447783346323, guid: a0e038f84b5268441bb6fc2aa365d58f,
+        type: 3}
+      propertyPath: m_isInputParsingRequired
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7558348447783346323, guid: a0e038f84b5268441bb6fc2aa365d58f,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 7558348447783346323, guid: a0e038f84b5268441bb6fc2aa365d58f,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a0e038f84b5268441bb6fc2aa365d58f, type: 3}
@@ -2082,7 +2172,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
   m_AnchoredPosition: {x: -250, y: 150}
-  m_SizeDelta: {x: 400, y: 100}
+  m_SizeDelta: {x: 500, y: 130}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &705360501
 MonoBehaviour:
@@ -2136,8 +2226,8 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 3798783}
-        m_MethodName: LoadCustom
-        m_Mode: 5
+        m_MethodName: Next
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine

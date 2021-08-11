@@ -189,6 +189,9 @@ EditorBuildSettings:
     path: Assets/Scenes/SophYear/Chapter_4_Exam_1.unity
     guid: bc7d1a5b5dc6a904ab74fcc6b0693818
   - enabled: 1
+    path: Assets/Scenes/SophYear/Chapter_4_Exam_2.unity
+    guid: afcc66a940785ab4288ca55df2809f6f
+  - enabled: 1
     path: Assets/Scenes/JuniorYear/AChapterPreTextJunior.unity
     guid: 8cfa7cd76b7b5cc4497c64abff802866
   - enabled: 1
@@ -326,6 +329,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Senior Year/Chapter_5_Convocation_5.unity
     guid: 1323e144704349b49a334bef26d35a35
+  - enabled: 1
+    path: Assets/Scenes/Senior Year/Complete.unity
+    guid: 1edc36f8721c0c14b843cae11d40b58c
   - enabled: 1
     path: Assets/Scenes/charecterCustomize.unity
     guid: d1bb2162fd2fe0c4dbc9c3fbca8330e2

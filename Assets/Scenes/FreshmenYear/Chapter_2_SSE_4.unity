@@ -666,7 +666,7 @@ PrefabInstance:
     - target: {fileID: 7824319523033891139, guid: 98d08b0cfee84c748b94f864fac38f05,
         type: 3}
       propertyPath: m_Text
-      value: He deliverately ignored me because he doesn't like me
+      value: He deliberately ignored me because he doesn't like me
       objectReference: {fileID: 0}
     - target: {fileID: 7824319523296074155, guid: 98d08b0cfee84c748b94f864fac38f05,
         type: 3}
@@ -681,7 +681,7 @@ PrefabInstance:
     - target: {fileID: 7824319523769347628, guid: 98d08b0cfee84c748b94f864fac38f05,
         type: 3}
       propertyPath: m_Text
-      value: Thank God he didnt acknowledge otherwise i'd have to talk
+      value: Thank God he didnt acknowledge otherwise I'd have to talk
       objectReference: {fileID: 0}
     - target: {fileID: 7824319524011635329, guid: 98d08b0cfee84c748b94f864fac38f05,
         type: 3}
@@ -2037,6 +2037,31 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_BoolArgument
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2803336729250742965, guid: acff1393b3bcae341ae6aec00709a2c4,
+        type: 3}
+      propertyPath: m_Text
+      value: Amused, Relieved
+      objectReference: {fileID: 0}
+    - target: {fileID: 2803336730987329253, guid: acff1393b3bcae341ae6aec00709a2c4,
+        type: 3}
+      propertyPath: m_Text
+      value: Disappointed, Troubled, Unhappy
+      objectReference: {fileID: 0}
+    - target: {fileID: 8454491330335781919, guid: acff1393b3bcae341ae6aec00709a2c4,
+        type: 3}
+      propertyPath: m_Text
+      value: Uncomfortable, Offended, Horrified
+      objectReference: {fileID: 0}
+    - target: {fileID: 8454491331186920795, guid: acff1393b3bcae341ae6aec00709a2c4,
+        type: 3}
+      propertyPath: m_Text
+      value: Annoyed, Bitter, Insulted
+      objectReference: {fileID: 0}
+    - target: {fileID: 8454491330422563665, guid: acff1393b3bcae341ae6aec00709a2c4,
+        type: 3}
+      propertyPath: m_Text
+      value: Confused, Anxious
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: acff1393b3bcae341ae6aec00709a2c4, type: 3}
