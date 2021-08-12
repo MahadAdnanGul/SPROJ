@@ -139,13 +139,13 @@ public class GameManager : MonoBehaviour
     public void JuniorYear()
     {
         topHud.SetActive(true);
-        SceneManager.LoadScene(61);
+        SceneManager.LoadScene(62);
         levelBar.value = 15f;
     }
     public void SeniorYear()
     {
         topHud.SetActive(true);
-        SceneManager.LoadScene(84);
+        SceneManager.LoadScene(85);
         levelBar.value = 23f;
     }
     public void UpdateChapter()

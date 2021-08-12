@@ -344,12 +344,12 @@ PrefabInstance:
     - target: {fileID: 3898754116049895602, guid: 008d41327f056c34881f47d3027201ae,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 162
+      value: 357.7
       objectReference: {fileID: 0}
     - target: {fileID: 3898754116049895602, guid: 008d41327f056c34881f47d3027201ae,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 337
+      value: 263.7
       objectReference: {fileID: 0}
     - target: {fileID: 3898754116049895602, guid: 008d41327f056c34881f47d3027201ae,
         type: 3}
@@ -401,6 +401,12 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 0.8
       objectReference: {fileID: 0}
+    - target: {fileID: 3898754116049895603, guid: 008d41327f056c34881f47d3027201ae,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: e6385ebac0ca1d14eae4c37934821e6b,
+        type: 3}
     - target: {fileID: 3898754116049895601, guid: 008d41327f056c34881f47d3027201ae,
         type: 3}
       propertyPath: messageArr.Array.size
@@ -416,6 +422,81 @@ PrefabInstance:
       propertyPath: messageArr.Array.data[0]
       value: Double the points? Thats double the pressure!
       objectReference: {fileID: 0}
+    - target: {fileID: 3898754116181778837, guid: 008d41327f056c34881f47d3027201ae,
+        type: 3}
+      propertyPath: m_isInputParsingRequired
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3898754116181778837, guid: 008d41327f056c34881f47d3027201ae,
+        type: 3}
+      propertyPath: m_text
+      value: Double the points? Thats double the pressure!
+      objectReference: {fileID: 0}
+    - target: {fileID: 3898754116181778837, guid: 008d41327f056c34881f47d3027201ae,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 3898754116181778837, guid: 008d41327f056c34881f47d3027201ae,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3898754116181778837, guid: 008d41327f056c34881f47d3027201ae,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3898754116181778837, guid: 008d41327f056c34881f47d3027201ae,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3898754116181778837, guid: 008d41327f056c34881f47d3027201ae,
+        type: 3}
+      propertyPath: m_margin.z
+      value: 1.8165894
+      objectReference: {fileID: 0}
+    - target: {fileID: 3898754116181778837, guid: 008d41327f056c34881f47d3027201ae,
+        type: 3}
+      propertyPath: m_havePropertiesChanged
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3898754116181778837, guid: 008d41327f056c34881f47d3027201ae,
+        type: 3}
+      propertyPath: m_margin.x
+      value: -5.05188
+      objectReference: {fileID: 0}
+    - target: {fileID: 3898754116181778836, guid: 008d41327f056c34881f47d3027201ae,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 19.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3898754116181778836, guid: 008d41327f056c34881f47d3027201ae,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -112.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 3898754116181778836, guid: 008d41327f056c34881f47d3027201ae,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 3898754116291859359, guid: 008d41327f056c34881f47d3027201ae,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 52.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3898754116291859359, guid: 008d41327f056c34881f47d3027201ae,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -36.845
+      objectReference: {fileID: 0}
+    - target: {fileID: 3898754115713782296, guid: 008d41327f056c34881f47d3027201ae,
+        type: 3}
+      propertyPath: m_TagString
+      value: DialogueName
+      objectReference: {fileID: 0}
     - target: {fileID: 3898754115713782302, guid: 008d41327f056c34881f47d3027201ae,
         type: 3}
       propertyPath: m_isInputParsingRequired
@@ -430,41 +511,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_textInfo.characterCount
       value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 3898754116181778837, guid: 008d41327f056c34881f47d3027201ae,
-        type: 3}
-      propertyPath: m_isInputParsingRequired
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3898754116181778837, guid: 008d41327f056c34881f47d3027201ae,
-        type: 3}
-      propertyPath: m_text
-      value: Let's get lunch after class
-      objectReference: {fileID: 0}
-    - target: {fileID: 3898754116181778837, guid: 008d41327f056c34881f47d3027201ae,
-        type: 3}
-      propertyPath: m_textInfo.characterCount
-      value: 27
-      objectReference: {fileID: 0}
-    - target: {fileID: 3898754116181778837, guid: 008d41327f056c34881f47d3027201ae,
-        type: 3}
-      propertyPath: m_textInfo.spaceCount
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 3898754116181778837, guid: 008d41327f056c34881f47d3027201ae,
-        type: 3}
-      propertyPath: m_textInfo.wordCount
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3898754116181778837, guid: 008d41327f056c34881f47d3027201ae,
-        type: 3}
-      propertyPath: m_textInfo.lineCount
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3898754115713782296, guid: 008d41327f056c34881f47d3027201ae,
-        type: 3}
-      propertyPath: m_TagString
-      value: DialogueName
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 008d41327f056c34881f47d3027201ae, type: 3}
@@ -687,7 +733,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Boy: {fileID: 3827169131630383259, guid: c6270d294a72b854e98f95f6638284e6, type: 3}
   Girl: {fileID: 2620662473104383393, guid: fd9bcd485e6c7694bbdf882a3b454e99, type: 3}
-  Position: {x: 2.31, y: 0.5}
+  Position: {x: 2.4, y: 0.5}
   BoyScale: {x: 0.222, y: 0.222}
   GirlScale: {x: 0.37, y: 0.37}
 --- !u!1 &1654781630
@@ -831,12 +877,12 @@ PrefabInstance:
     - target: {fileID: 3898754116049895602, guid: 008d41327f056c34881f47d3027201ae,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -400
+      value: -260
       objectReference: {fileID: 0}
     - target: {fileID: 3898754116049895602, guid: 008d41327f056c34881f47d3027201ae,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 400
+      value: 300
       objectReference: {fileID: 0}
     - target: {fileID: 3898754116049895602, guid: 008d41327f056c34881f47d3027201ae,
         type: 3}
@@ -894,21 +940,6 @@ PrefabInstance:
       value: Alright so it's going to be Today's class will have CP worth double the
         points compared to normal.
       objectReference: {fileID: 0}
-    - target: {fileID: 3898754115713782302, guid: 008d41327f056c34881f47d3027201ae,
-        type: 3}
-      propertyPath: m_text
-      value: Instructor
-      objectReference: {fileID: 0}
-    - target: {fileID: 3898754115713782302, guid: 008d41327f056c34881f47d3027201ae,
-        type: 3}
-      propertyPath: m_isInputParsingRequired
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3898754115713782302, guid: 008d41327f056c34881f47d3027201ae,
-        type: 3}
-      propertyPath: m_textInfo.characterCount
-      value: 10
-      objectReference: {fileID: 0}
     - target: {fileID: 3898754116181778837, guid: 008d41327f056c34881f47d3027201ae,
         type: 3}
       propertyPath: m_text
@@ -938,6 +969,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_textInfo.lineCount
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3898754115713782302, guid: 008d41327f056c34881f47d3027201ae,
+        type: 3}
+      propertyPath: m_text
+      value: Instructor
+      objectReference: {fileID: 0}
+    - target: {fileID: 3898754115713782302, guid: 008d41327f056c34881f47d3027201ae,
+        type: 3}
+      propertyPath: m_isInputParsingRequired
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3898754115713782302, guid: 008d41327f056c34881f47d3027201ae,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 008d41327f056c34881f47d3027201ae, type: 3}

@@ -1122,7 +1122,7 @@ PrefabInstance:
     - target: {fileID: 3898754116049895602, guid: 008d41327f056c34881f47d3027201ae,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 160
+      value: 220
       objectReference: {fileID: 0}
     - target: {fileID: 3898754116049895602, guid: 008d41327f056c34881f47d3027201ae,
         type: 3}
@@ -1189,41 +1189,6 @@ PrefabInstance:
       propertyPath: messageArr.Array.data[1]
       value: I also have a project so probably can't do a trip
       objectReference: {fileID: 0}
-    - target: {fileID: 3898754115713782302, guid: 008d41327f056c34881f47d3027201ae,
-        type: 3}
-      propertyPath: m_isInputParsingRequired
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3898754115713782302, guid: 008d41327f056c34881f47d3027201ae,
-        type: 3}
-      propertyPath: m_text
-      value: Ali
-      objectReference: {fileID: 0}
-    - target: {fileID: 3898754115713782302, guid: 008d41327f056c34881f47d3027201ae,
-        type: 3}
-      propertyPath: m_textInfo.characterCount
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 3898754115713782302, guid: 008d41327f056c34881f47d3027201ae,
-        type: 3}
-      propertyPath: m_textInfo.wordCount
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3898754115713782302, guid: 008d41327f056c34881f47d3027201ae,
-        type: 3}
-      propertyPath: m_textInfo.lineCount
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3898754115713782302, guid: 008d41327f056c34881f47d3027201ae,
-        type: 3}
-      propertyPath: m_textInfo.pageCount
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3898754115713782302, guid: 008d41327f056c34881f47d3027201ae,
-        type: 3}
-      propertyPath: m_havePropertiesChanged
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3898754116181778837, guid: 008d41327f056c34881f47d3027201ae,
         type: 3}
       propertyPath: m_isInputParsingRequired
@@ -1260,6 +1225,41 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3898754116181778837, guid: 008d41327f056c34881f47d3027201ae,
+        type: 3}
+      propertyPath: m_havePropertiesChanged
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3898754115713782302, guid: 008d41327f056c34881f47d3027201ae,
+        type: 3}
+      propertyPath: m_isInputParsingRequired
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3898754115713782302, guid: 008d41327f056c34881f47d3027201ae,
+        type: 3}
+      propertyPath: m_text
+      value: Ali
+      objectReference: {fileID: 0}
+    - target: {fileID: 3898754115713782302, guid: 008d41327f056c34881f47d3027201ae,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3898754115713782302, guid: 008d41327f056c34881f47d3027201ae,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3898754115713782302, guid: 008d41327f056c34881f47d3027201ae,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3898754115713782302, guid: 008d41327f056c34881f47d3027201ae,
+        type: 3}
+      propertyPath: m_textInfo.pageCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3898754115713782302, guid: 008d41327f056c34881f47d3027201ae,
         type: 3}
       propertyPath: m_havePropertiesChanged
       value: 0
@@ -4518,7 +4518,7 @@ PrefabInstance:
     - target: {fileID: 3898754116049895602, guid: 008d41327f056c34881f47d3027201ae,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 160
+      value: 220
       objectReference: {fileID: 0}
     - target: {fileID: 3898754116049895602, guid: 008d41327f056c34881f47d3027201ae,
         type: 3}
@@ -4585,25 +4585,10 @@ PrefabInstance:
       propertyPath: messageArr.Array.data[1]
       value: It is our last summer after all!
       objectReference: {fileID: 0}
-    - target: {fileID: 3898754115713782302, guid: 008d41327f056c34881f47d3027201ae,
-        type: 3}
-      propertyPath: m_isInputParsingRequired
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3898754115713782302, guid: 008d41327f056c34881f47d3027201ae,
-        type: 3}
-      propertyPath: m_text
-      value: Ali
-      objectReference: {fileID: 0}
-    - target: {fileID: 3898754115713782302, guid: 008d41327f056c34881f47d3027201ae,
-        type: 3}
-      propertyPath: m_textInfo.characterCount
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 3898754116181778837, guid: 008d41327f056c34881f47d3027201ae,
         type: 3}
       propertyPath: m_isInputParsingRequired
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3898754116181778837, guid: 008d41327f056c34881f47d3027201ae,
         type: 3}
@@ -4635,15 +4620,35 @@ PrefabInstance:
       propertyPath: m_textInfo.pageCount
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 3898754116291859356, guid: 008d41327f056c34881f47d3027201ae,
+    - target: {fileID: 3898754116181778837, guid: 008d41327f056c34881f47d3027201ae,
         type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: NextMessageTrigger
+      propertyPath: m_havePropertiesChanged
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3898754115713782296, guid: 008d41327f056c34881f47d3027201ae,
         type: 3}
       propertyPath: m_TagString
       value: DialogueName
+      objectReference: {fileID: 0}
+    - target: {fileID: 3898754115713782302, guid: 008d41327f056c34881f47d3027201ae,
+        type: 3}
+      propertyPath: m_isInputParsingRequired
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3898754115713782302, guid: 008d41327f056c34881f47d3027201ae,
+        type: 3}
+      propertyPath: m_text
+      value: Ali
+      objectReference: {fileID: 0}
+    - target: {fileID: 3898754115713782302, guid: 008d41327f056c34881f47d3027201ae,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3898754116291859356, guid: 008d41327f056c34881f47d3027201ae,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: NextMessageTrigger
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 008d41327f056c34881f47d3027201ae, type: 3}
@@ -8487,7 +8492,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1250228912
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8505,7 +8510,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -173, y: 23}
+  m_AnchoredPosition: {x: -9, y: 18}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1267143008
@@ -8810,7 +8815,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -428, y: 23}
+  m_AnchoredPosition: {x: -273, y: -13}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1338009368
@@ -9735,21 +9740,6 @@ PrefabInstance:
       propertyPath: trigger
       value: 
       objectReference: {fileID: 4846814461099483076}
-    - target: {fileID: 3898754115713782302, guid: 008d41327f056c34881f47d3027201ae,
-        type: 3}
-      propertyPath: m_isInputParsingRequired
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3898754115713782302, guid: 008d41327f056c34881f47d3027201ae,
-        type: 3}
-      propertyPath: m_text
-      value: Ali
-      objectReference: {fileID: 0}
-    - target: {fileID: 3898754115713782302, guid: 008d41327f056c34881f47d3027201ae,
-        type: 3}
-      propertyPath: m_textInfo.characterCount
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 3898754116181778837, guid: 008d41327f056c34881f47d3027201ae,
         type: 3}
       propertyPath: m_isInputParsingRequired
@@ -9784,6 +9774,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_textInfo.pageCount
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3898754115713782302, guid: 008d41327f056c34881f47d3027201ae,
+        type: 3}
+      propertyPath: m_isInputParsingRequired
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3898754115713782302, guid: 008d41327f056c34881f47d3027201ae,
+        type: 3}
+      propertyPath: m_text
+      value: Ali
+      objectReference: {fileID: 0}
+    - target: {fileID: 3898754115713782302, guid: 008d41327f056c34881f47d3027201ae,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3898754116291859356, guid: 008d41327f056c34881f47d3027201ae,
         type: 3}
@@ -11084,7 +11089,7 @@ PrefabInstance:
     - target: {fileID: 3898754116049895602, guid: 008d41327f056c34881f47d3027201ae,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 160
+      value: 220
       objectReference: {fileID: 0}
     - target: {fileID: 3898754116049895602, guid: 008d41327f056c34881f47d3027201ae,
         type: 3}
@@ -11151,26 +11156,6 @@ PrefabInstance:
       propertyPath: messageArr.Array.data[1]
       value: It is our last summer after all!
       objectReference: {fileID: 0}
-    - target: {fileID: 3898754115713782302, guid: 008d41327f056c34881f47d3027201ae,
-        type: 3}
-      propertyPath: m_isInputParsingRequired
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3898754115713782302, guid: 008d41327f056c34881f47d3027201ae,
-        type: 3}
-      propertyPath: m_text
-      value: Ali
-      objectReference: {fileID: 0}
-    - target: {fileID: 3898754115713782302, guid: 008d41327f056c34881f47d3027201ae,
-        type: 3}
-      propertyPath: m_textInfo.characterCount
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 3898754115713782302, guid: 008d41327f056c34881f47d3027201ae,
-        type: 3}
-      propertyPath: m_havePropertiesChanged
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3898754116181778837, guid: 008d41327f056c34881f47d3027201ae,
         type: 3}
       propertyPath: m_isInputParsingRequired
@@ -11211,15 +11196,35 @@ PrefabInstance:
       propertyPath: m_havePropertiesChanged
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3898754116291859356, guid: 008d41327f056c34881f47d3027201ae,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: NextMessageTrigger
-      objectReference: {fileID: 0}
     - target: {fileID: 3898754115713782296, guid: 008d41327f056c34881f47d3027201ae,
         type: 3}
       propertyPath: m_TagString
       value: DialogueName
+      objectReference: {fileID: 0}
+    - target: {fileID: 3898754115713782302, guid: 008d41327f056c34881f47d3027201ae,
+        type: 3}
+      propertyPath: m_isInputParsingRequired
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3898754115713782302, guid: 008d41327f056c34881f47d3027201ae,
+        type: 3}
+      propertyPath: m_text
+      value: Ali
+      objectReference: {fileID: 0}
+    - target: {fileID: 3898754115713782302, guid: 008d41327f056c34881f47d3027201ae,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3898754115713782302, guid: 008d41327f056c34881f47d3027201ae,
+        type: 3}
+      propertyPath: m_havePropertiesChanged
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3898754116291859356, guid: 008d41327f056c34881f47d3027201ae,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: NextMessageTrigger
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 008d41327f056c34881f47d3027201ae, type: 3}
@@ -12306,7 +12311,7 @@ PrefabInstance:
     - target: {fileID: 3898754116049895602, guid: 008d41327f056c34881f47d3027201ae,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 160
+      value: 220
       objectReference: {fileID: 0}
     - target: {fileID: 3898754116049895602, guid: 008d41327f056c34881f47d3027201ae,
         type: 3}
@@ -12374,36 +12379,6 @@ PrefabInstance:
       propertyPath: messageArr.Array.data[1]
       value: But let's see if we can work something out!
       objectReference: {fileID: 0}
-    - target: {fileID: 3898754115713782302, guid: 008d41327f056c34881f47d3027201ae,
-        type: 3}
-      propertyPath: m_isInputParsingRequired
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3898754115713782302, guid: 008d41327f056c34881f47d3027201ae,
-        type: 3}
-      propertyPath: m_text
-      value: Sarah
-      objectReference: {fileID: 0}
-    - target: {fileID: 3898754115713782302, guid: 008d41327f056c34881f47d3027201ae,
-        type: 3}
-      propertyPath: m_textInfo.characterCount
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 3898754115713782302, guid: 008d41327f056c34881f47d3027201ae,
-        type: 3}
-      propertyPath: m_textInfo.wordCount
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3898754115713782302, guid: 008d41327f056c34881f47d3027201ae,
-        type: 3}
-      propertyPath: m_textInfo.lineCount
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3898754115713782302, guid: 008d41327f056c34881f47d3027201ae,
-        type: 3}
-      propertyPath: m_textInfo.pageCount
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 3898754116181778837, guid: 008d41327f056c34881f47d3027201ae,
         type: 3}
       propertyPath: m_isInputParsingRequired
@@ -12438,6 +12413,36 @@ PrefabInstance:
         type: 3}
       propertyPath: m_textInfo.pageCount
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3898754115713782302, guid: 008d41327f056c34881f47d3027201ae,
+        type: 3}
+      propertyPath: m_isInputParsingRequired
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3898754115713782302, guid: 008d41327f056c34881f47d3027201ae,
+        type: 3}
+      propertyPath: m_text
+      value: Sarah
+      objectReference: {fileID: 0}
+    - target: {fileID: 3898754115713782302, guid: 008d41327f056c34881f47d3027201ae,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3898754115713782302, guid: 008d41327f056c34881f47d3027201ae,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3898754115713782302, guid: 008d41327f056c34881f47d3027201ae,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3898754115713782302, guid: 008d41327f056c34881f47d3027201ae,
+        type: 3}
+      propertyPath: m_textInfo.pageCount
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3898754116291859356, guid: 008d41327f056c34881f47d3027201ae,
         type: 3}
@@ -12969,7 +12974,7 @@ PrefabInstance:
     - target: {fileID: 3898754116049895602, guid: 008d41327f056c34881f47d3027201ae,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 160
+      value: 220
       objectReference: {fileID: 0}
     - target: {fileID: 3898754116049895602, guid: 008d41327f056c34881f47d3027201ae,
         type: 3}
@@ -13036,41 +13041,6 @@ PrefabInstance:
       propertyPath: messageArr.Array.data[1]
       value: Do you have any ideas for the trip?
       objectReference: {fileID: 0}
-    - target: {fileID: 3898754115713782302, guid: 008d41327f056c34881f47d3027201ae,
-        type: 3}
-      propertyPath: m_isInputParsingRequired
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3898754115713782302, guid: 008d41327f056c34881f47d3027201ae,
-        type: 3}
-      propertyPath: m_text
-      value: Sarah
-      objectReference: {fileID: 0}
-    - target: {fileID: 3898754115713782302, guid: 008d41327f056c34881f47d3027201ae,
-        type: 3}
-      propertyPath: m_textInfo.characterCount
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3898754115713782302, guid: 008d41327f056c34881f47d3027201ae,
-        type: 3}
-      propertyPath: m_textInfo.wordCount
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3898754115713782302, guid: 008d41327f056c34881f47d3027201ae,
-        type: 3}
-      propertyPath: m_textInfo.lineCount
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3898754115713782302, guid: 008d41327f056c34881f47d3027201ae,
-        type: 3}
-      propertyPath: m_textInfo.pageCount
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3898754115713782302, guid: 008d41327f056c34881f47d3027201ae,
-        type: 3}
-      propertyPath: m_havePropertiesChanged
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3898754116181778837, guid: 008d41327f056c34881f47d3027201ae,
         type: 3}
       propertyPath: m_isInputParsingRequired
@@ -13107,6 +13077,41 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3898754116181778837, guid: 008d41327f056c34881f47d3027201ae,
+        type: 3}
+      propertyPath: m_havePropertiesChanged
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3898754115713782302, guid: 008d41327f056c34881f47d3027201ae,
+        type: 3}
+      propertyPath: m_isInputParsingRequired
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3898754115713782302, guid: 008d41327f056c34881f47d3027201ae,
+        type: 3}
+      propertyPath: m_text
+      value: Sarah
+      objectReference: {fileID: 0}
+    - target: {fileID: 3898754115713782302, guid: 008d41327f056c34881f47d3027201ae,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3898754115713782302, guid: 008d41327f056c34881f47d3027201ae,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3898754115713782302, guid: 008d41327f056c34881f47d3027201ae,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3898754115713782302, guid: 008d41327f056c34881f47d3027201ae,
+        type: 3}
+      propertyPath: m_textInfo.pageCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3898754115713782302, guid: 008d41327f056c34881f47d3027201ae,
         type: 3}
       propertyPath: m_havePropertiesChanged
       value: 0
@@ -13288,7 +13293,7 @@ PrefabInstance:
     - target: {fileID: 3898754116049895602, guid: 008d41327f056c34881f47d3027201ae,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 160
+      value: 220
       objectReference: {fileID: 0}
     - target: {fileID: 3898754116049895602, guid: 008d41327f056c34881f47d3027201ae,
         type: 3}
@@ -13355,36 +13360,6 @@ PrefabInstance:
       propertyPath: messageArr.Array.data[1]
       value: I also have a project so probably can't do a trip
       objectReference: {fileID: 0}
-    - target: {fileID: 3898754115713782302, guid: 008d41327f056c34881f47d3027201ae,
-        type: 3}
-      propertyPath: m_isInputParsingRequired
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3898754115713782302, guid: 008d41327f056c34881f47d3027201ae,
-        type: 3}
-      propertyPath: m_text
-      value: Ali
-      objectReference: {fileID: 0}
-    - target: {fileID: 3898754115713782302, guid: 008d41327f056c34881f47d3027201ae,
-        type: 3}
-      propertyPath: m_textInfo.characterCount
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 3898754115713782302, guid: 008d41327f056c34881f47d3027201ae,
-        type: 3}
-      propertyPath: m_textInfo.wordCount
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3898754115713782302, guid: 008d41327f056c34881f47d3027201ae,
-        type: 3}
-      propertyPath: m_textInfo.lineCount
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3898754115713782302, guid: 008d41327f056c34881f47d3027201ae,
-        type: 3}
-      propertyPath: m_textInfo.pageCount
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 3898754116181778837, guid: 008d41327f056c34881f47d3027201ae,
         type: 3}
       propertyPath: m_isInputParsingRequired
@@ -13419,6 +13394,36 @@ PrefabInstance:
         type: 3}
       propertyPath: m_textInfo.pageCount
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3898754115713782302, guid: 008d41327f056c34881f47d3027201ae,
+        type: 3}
+      propertyPath: m_isInputParsingRequired
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3898754115713782302, guid: 008d41327f056c34881f47d3027201ae,
+        type: 3}
+      propertyPath: m_text
+      value: Ali
+      objectReference: {fileID: 0}
+    - target: {fileID: 3898754115713782302, guid: 008d41327f056c34881f47d3027201ae,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3898754115713782302, guid: 008d41327f056c34881f47d3027201ae,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3898754115713782302, guid: 008d41327f056c34881f47d3027201ae,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3898754115713782302, guid: 008d41327f056c34881f47d3027201ae,
+        type: 3}
+      propertyPath: m_textInfo.pageCount
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3898754116291859356, guid: 008d41327f056c34881f47d3027201ae,
         type: 3}
@@ -14005,7 +14010,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 50, y: 50}
+  m_AnchoredPosition: {x: 181, y: 41}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &2061085709
@@ -14668,11 +14673,6 @@ PrefabInstance:
       propertyPath: m_SizeDelta.x
       value: 350
       objectReference: {fileID: 0}
-    - target: {fileID: 7435750360167895915, guid: 98d08b0cfee84c748b94f864fac38f05,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0.8800049
-      objectReference: {fileID: 0}
     - target: {fileID: 7824319522458977848, guid: 98d08b0cfee84c748b94f864fac38f05,
         type: 3}
       propertyPath: m_havePropertiesChanged
@@ -14687,6 +14687,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0.79999924
+      objectReference: {fileID: 0}
+    - target: {fileID: 7435750360167895915, guid: 98d08b0cfee84c748b94f864fac38f05,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.8800049
       objectReference: {fileID: 0}
     - target: {fileID: 7824319524011635330, guid: 98d08b0cfee84c748b94f864fac38f05,
         type: 3}
