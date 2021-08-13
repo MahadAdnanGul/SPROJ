@@ -681,12 +681,12 @@ PrefabInstance:
     - target: {fileID: 7824319523769347628, guid: 98d08b0cfee84c748b94f864fac38f05,
         type: 3}
       propertyPath: m_Text
-      value: Thank God he didnt acknowledge otherwise I'd have to talk
+      value: What if I never make friends here?
       objectReference: {fileID: 0}
     - target: {fileID: 7824319524011635329, guid: 98d08b0cfee84c748b94f864fac38f05,
         type: 3}
       propertyPath: m_Text
-      value: What if I never make friends here?
+      value: Thank God he didnt acknowledge otherwise I'd have to talk
       objectReference: {fileID: 0}
     - target: {fileID: 7824319524022751509, guid: 98d08b0cfee84c748b94f864fac38f05,
         type: 3}
@@ -2716,12 +2716,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 3898754116049895603, guid: 008d41327f056c34881f47d3027201ae,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: e6385ebac0ca1d14eae4c37934821e6b,
-        type: 3}
     - target: {fileID: 3898754116049895601, guid: 008d41327f056c34881f47d3027201ae,
         type: 3}
       propertyPath: messageArr.Array.data[0]
@@ -2777,11 +2771,6 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 44.7
       objectReference: {fileID: 0}
-    - target: {fileID: 3898754115713782296, guid: 008d41327f056c34881f47d3027201ae,
-        type: 3}
-      propertyPath: m_TagString
-      value: DialogueName
-      objectReference: {fileID: 0}
     - target: {fileID: 3898754115713782302, guid: 008d41327f056c34881f47d3027201ae,
         type: 3}
       propertyPath: m_text
@@ -2792,6 +2781,17 @@ PrefabInstance:
       propertyPath: m_isInputParsingRequired
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3898754115713782296, guid: 008d41327f056c34881f47d3027201ae,
+        type: 3}
+      propertyPath: m_TagString
+      value: DialogueName
+      objectReference: {fileID: 0}
+    - target: {fileID: 3898754116049895603, guid: 008d41327f056c34881f47d3027201ae,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: e6385ebac0ca1d14eae4c37934821e6b,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 008d41327f056c34881f47d3027201ae, type: 3}
 --- !u!224 &854606837 stripped
@@ -3805,31 +3805,6 @@ PrefabInstance:
       propertyPath: trigger
       value: 
       objectReference: {fileID: 1689981536}
-    - target: {fileID: 9054806555990201989, guid: 008d41327f056c34881f47d3027201ae,
-        type: 3}
-      propertyPath: messages.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9054806555990201989, guid: 008d41327f056c34881f47d3027201ae,
-        type: 3}
-      propertyPath: resetTrigger
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9054806555990201989, guid: 008d41327f056c34881f47d3027201ae,
-        type: 3}
-      propertyPath: trigger
-      value: 
-      objectReference: {fileID: 1689981535}
-    - target: {fileID: 9054806555990201989, guid: 008d41327f056c34881f47d3027201ae,
-        type: 3}
-      propertyPath: newTrigger
-      value: 
-      objectReference: {fileID: 424646100}
-    - target: {fileID: 9054806555990201989, guid: 008d41327f056c34881f47d3027201ae,
-        type: 3}
-      propertyPath: messages.Array.data[0]
-      value: Sure thing!
-      objectReference: {fileID: 0}
     - target: {fileID: 3898754116181778837, guid: 008d41327f056c34881f47d3027201ae,
         type: 3}
       propertyPath: m_havePropertiesChanged
@@ -3854,6 +3829,31 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: NextMessageOptionalReset
+      objectReference: {fileID: 0}
+    - target: {fileID: 9054806555990201989, guid: 008d41327f056c34881f47d3027201ae,
+        type: 3}
+      propertyPath: messages.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9054806555990201989, guid: 008d41327f056c34881f47d3027201ae,
+        type: 3}
+      propertyPath: resetTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9054806555990201989, guid: 008d41327f056c34881f47d3027201ae,
+        type: 3}
+      propertyPath: trigger
+      value: 
+      objectReference: {fileID: 1689981535}
+    - target: {fileID: 9054806555990201989, guid: 008d41327f056c34881f47d3027201ae,
+        type: 3}
+      propertyPath: newTrigger
+      value: 
+      objectReference: {fileID: 424646100}
+    - target: {fileID: 9054806555990201989, guid: 008d41327f056c34881f47d3027201ae,
+        type: 3}
+      propertyPath: messages.Array.data[0]
+      value: Sure thing!
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 008d41327f056c34881f47d3027201ae, type: 3}
@@ -4177,7 +4177,7 @@ PrefabInstance:
     - target: {fileID: 3898754116049895602, guid: 008d41327f056c34881f47d3027201ae,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3898754116049895602, guid: 008d41327f056c34881f47d3027201ae,
         type: 3}
@@ -4269,11 +4269,6 @@ PrefabInstance:
       propertyPath: trigger
       value: 
       objectReference: {fileID: 1562348080}
-    - target: {fileID: 3898754115713782296, guid: 008d41327f056c34881f47d3027201ae,
-        type: 3}
-      propertyPath: m_TagString
-      value: DialogueName
-      objectReference: {fileID: 0}
     - target: {fileID: 3898754115713782302, guid: 008d41327f056c34881f47d3027201ae,
         type: 3}
       propertyPath: m_text
@@ -4283,6 +4278,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_isInputParsingRequired
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3898754115713782296, guid: 008d41327f056c34881f47d3027201ae,
+        type: 3}
+      propertyPath: m_TagString
+      value: DialogueName
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 008d41327f056c34881f47d3027201ae, type: 3}
@@ -5755,6 +5755,56 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4846814462182732547, guid: 2f360a6819b2e1a45b7cdf6e5179eec5,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4846814462182732547, guid: 2f360a6819b2e1a45b7cdf6e5179eec5,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 424646100}
+    - target: {fileID: 4846814462182732547, guid: 2f360a6819b2e1a45b7cdf6e5179eec5,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4846814462182732547, guid: 2f360a6819b2e1a45b7cdf6e5179eec5,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4846814462182732547, guid: 2f360a6819b2e1a45b7cdf6e5179eec5,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4846814462182732547, guid: 2f360a6819b2e1a45b7cdf6e5179eec5,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[4].m_Target
+      value: 
+      objectReference: {fileID: 4846814460707930882}
+    - target: {fileID: 4846814462182732547, guid: 2f360a6819b2e1a45b7cdf6e5179eec5,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[4].m_MethodName
+      value: DecisionData
+      objectReference: {fileID: 0}
+    - target: {fileID: 4846814462182732547, guid: 2f360a6819b2e1a45b7cdf6e5179eec5,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[4].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4846814462182732547, guid: 2f360a6819b2e1a45b7cdf6e5179eec5,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[4].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 4846814460707930883}
+    - target: {fileID: 4846814462182732547, guid: 2f360a6819b2e1a45b7cdf6e5179eec5,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[4].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.UI.Text, UnityEngine.UI
+      objectReference: {fileID: 0}
     - target: {fileID: 4846814461999602276, guid: 2f360a6819b2e1a45b7cdf6e5179eec5,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -5865,56 +5915,6 @@ PrefabInstance:
       propertyPath: newTrigger
       value: 
       objectReference: {fileID: 1562348080}
-    - target: {fileID: 4846814462182732547, guid: 2f360a6819b2e1a45b7cdf6e5179eec5,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4846814462182732547, guid: 2f360a6819b2e1a45b7cdf6e5179eec5,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 424646100}
-    - target: {fileID: 4846814462182732547, guid: 2f360a6819b2e1a45b7cdf6e5179eec5,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4846814462182732547, guid: 2f360a6819b2e1a45b7cdf6e5179eec5,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4846814462182732547, guid: 2f360a6819b2e1a45b7cdf6e5179eec5,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 4846814462182732547, guid: 2f360a6819b2e1a45b7cdf6e5179eec5,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[4].m_Target
-      value: 
-      objectReference: {fileID: 4846814460707930882}
-    - target: {fileID: 4846814462182732547, guid: 2f360a6819b2e1a45b7cdf6e5179eec5,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[4].m_MethodName
-      value: DecisionData
-      objectReference: {fileID: 0}
-    - target: {fileID: 4846814462182732547, guid: 2f360a6819b2e1a45b7cdf6e5179eec5,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[4].m_Mode
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4846814462182732547, guid: 2f360a6819b2e1a45b7cdf6e5179eec5,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[4].m_Arguments.m_ObjectArgument
-      value: 
-      objectReference: {fileID: 4846814460707930883}
-    - target: {fileID: 4846814462182732547, guid: 2f360a6819b2e1a45b7cdf6e5179eec5,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[4].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.UI.Text, UnityEngine.UI
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2f360a6819b2e1a45b7cdf6e5179eec5, type: 3}
 --- !u!114 &4846814460707930882 stripped
