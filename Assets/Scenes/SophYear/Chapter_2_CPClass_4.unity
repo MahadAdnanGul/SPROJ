@@ -613,7 +613,7 @@ PrefabInstance:
     - target: {fileID: 7824319523617892506, guid: 98d08b0cfee84c748b94f864fac38f05,
         type: 3}
       propertyPath: m_Text
-      value: Sure, why not
+      value: Im slightly nervous but I know what to say
       objectReference: {fileID: 0}
     - target: {fileID: 7824319523769347628, guid: 98d08b0cfee84c748b94f864fac38f05,
         type: 3}
@@ -623,7 +623,7 @@ PrefabInstance:
     - target: {fileID: 7824319524011635329, guid: 98d08b0cfee84c748b94f864fac38f05,
         type: 3}
       propertyPath: m_Text
-      value: 'I don''t mind '
+      value: I love participating in class!
       objectReference: {fileID: 0}
     - target: {fileID: 7824319524022751509, guid: 98d08b0cfee84c748b94f864fac38f05,
         type: 3}
@@ -723,7 +723,7 @@ PrefabInstance:
     - target: {fileID: 7531676225269282031, guid: 98d08b0cfee84c748b94f864fac38f05,
         type: 3}
       propertyPath: m_Text
-      value: It might be slightly awkward, but it could be fun
+      value: 'I don''t mind '
       objectReference: {fileID: 0}
     - target: {fileID: 3239022535096269990, guid: 98d08b0cfee84c748b94f864fac38f05,
         type: 3}
